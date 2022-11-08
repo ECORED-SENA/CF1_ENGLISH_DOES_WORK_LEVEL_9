@@ -3,15 +3,20 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p Con el diagrama de actividades se termina la descripción de las tres técnicas usadas para la especificación y el análisis de requisitos, como se pudo analizar cada una de las técnicas nos brinda características para lograr representar gráficamente y de una forma clara, los requisitos que un usuario necesita poder cumplir satisfactoriamente con las solicitudes de los clientes y usuarios, por otro lado se pueden usar todas las técnicas en una especificación y análisis de requisitos si se ve la necesidad.
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
+    .row.mb-5.bgr.p-5
+      .col-xl-4
+        figure
+          img(src="@/assets/curso/sintesis/img1.png", alt="alt")
+      .col-xl-8
+        p.mb-5 <em>Up to this point, we have been able to appreciate everything that has to do with Present Simple, Simple Past and Past Continuous tenses, the use of “used to” and “would” to talk about past habits, and the sequential past linkers, that is why we invite you to consider the following conceptual scheme that summarizes the subject treated:</em>
+        p.colr_2 Hasta este punto, se ha podido apreciar todo lo que tiene que ver con el tiempo presente simple, el pasado simple y el pasado continuo, el uso de "used to" y "would" para hablar de hábitos pasados, y los conectores de pasado secuencial, por lo que le invitamos a considerar el siguiente esquema conceptual que resume el tema tratado: 
 
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/sintesis/sintesis.svg", alt="alt")
       .col-auto
-        a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto

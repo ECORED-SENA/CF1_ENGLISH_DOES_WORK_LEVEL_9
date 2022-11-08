@@ -1,15 +1,39 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: float2 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 43%
+    right: 67%
   &-2
+    animation: float2 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 70%
+    right: 52%
+  &-3
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
+    top: 7%
+    right: 17%
+  &-4
+    animation: float2 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 73%
+    right: 33%
+  &-5
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 20%
+    right: 64%
+  &-6
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 7%
+    right: 38%
+  &-7
+    animation: float2 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 48%
+    right: 21%
 
 @keyframes float1
   0%
@@ -17,3 +41,258 @@
 
   100%
     transform: translateY(0px)
+@keyframes float2
+  0%
+    transform: translateX(20px)
+
+  100%
+    transform: translateX(0px)
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/fondo_interno.svg") !important
+  background-repeat: no-repeat
+  background-color: $color-acento-contenido !important
+.banner-principal__componente
+  em
+    color: white
+  h1
+    color: $color-acento-botones
+.banner-principal__info
+  width: 600px
+  background-image: url("../assets/curso/portada/banner-principal-decorativo.svg")
+  align-self: stretch
+  background-repeat: no-repeat
+  background-position: 15% 0, 17% 76%
+  background-size: 50%, 25%
+  animation: Flitp1 6s ease infinite
+  margin-top: 30px
+  @media screen and (max-width: 992px)
+    background-position: 50% 13%, 50% 95%
+    padding-top: 6rem !important
+    width: 560px
+  @media screen and (max-width: 420px)
+    background-image: none
+    animation: none
+    padding-left: 1.5rem !important
+    padding-top: 1.5rem !important   
+   
+@keyframes Flitp1
+  0%
+    background-image: url("../assets/curso/portada/banner-principal-decorativo.svg")
+  50%
+    background-image: url("../assets/curso/portada/banner-principal-decorativo.svg")
+    background-position: 36% 0, 25% 80%
+  100%
+    background-image: url("../assets/curso/portada/banner-principal-decorativo.svg")
+// TAMAÑO IMAGENES //
+.img18
+   max-width: 18px !important
+.img30
+   max-width: 30px !important
+.img40
+  max-width: 40px !important
+.img50
+  max-width: 50px !important
+.img60
+  max-width: 60px !important
+.img70
+   max-width: 70px !important
+.img80
+   max-width: 80px !important
+.img90
+  max-width: 90px !important
+.img100
+  max-width: 100px !important
+.img120
+  max-width: 120px !important
+.img140
+  max-width: 140px !important
+.img160
+  max-width: 160px !important
+.img180
+  max-width: 180px !important
+.img200
+  max-width: 200px !important
+.img250
+  max-width: 250px !important
+.img300
+  max-width: 300px !important
+.img350
+  max-width: 350px !important
+.img400
+  max-width: 400px !important
+.img420
+  max-width: 420px !important
+.img450
+  max-width: 450px !important
+.img600
+  max-width: 600px !important
+.img700
+  max-width: 700px !important
+.img800
+  max-width: 800px !important
+.img900
+  max-width: 900px !important
+
+//COLOR CONTENIDOS Y TEXTO//
+.colr
+  color: #3C3FA7 !important
+  em
+    color: #3C3FA7 !important
+  &_1
+    color: $color-acento-botones !important
+    em
+      color: $color-acento-botones !important
+  &_2
+    color: #777777
+  &_3
+    color: $color-sistema-texto
+  &_4
+    color: $color-secundario !important
+    em
+      color: $color-secundario !important
+  
+//FONDOS//
+.bgr
+  background-color: #DDDEFF
+  &_1
+    background-color: white
+  &_2
+    background-color: #DDDEFF
+    border-bottom-left-radius: 10px
+    border-bottom-right-radius: 1opx
+  
+
+//FONDOS COMPLETOS DE CONTENIDO//
+.bg_grad-01
+  position: relative
+  .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem 
+    top: 0
+    left: 0
+    width: calc(100% + 6rem)
+    height: calc(100% + 3rem)
+    background-image: url("../assets/curso/introduccion/fondo1.png")
+    background-repeat: no-repeat
+    background-size: cover
+.bg_grad-02
+  position: relative
+  .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem 
+    top: 0
+    left: 0
+    width: calc(100% + 6rem)
+    height: 100%
+    background-color: #FF5F65
+.bg_grad-03
+  position: relative
+  .tarjeta, .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem 
+    top: -53px
+    left: 0
+    width: calc(100% + 6rem)
+    height: calc(100% + 6rem)
+    background-image: url("../assets/curso/tema1/fondo1.svg")
+    background-repeat: no-repeat
+    background-size: cover
+.bg_grad-04
+  position: relative
+  .tarjeta, .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem 
+    top: -10px
+    left: 0
+    width: calc(100% + 6rem)
+    height: calc(100% + 4rem)
+    background-image: url("../assets/curso/tema1/fondo2.svg")
+    background-repeat: no-repeat
+    background-size: cover
+.bg_grad-05
+  position: relative
+  .tarjeta, .row, .slyder-f
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem 
+    top: 12%
+    left: 0
+    width: calc(100% + 6rem)
+    height: 92%
+    background-image: url("../assets/curso/tema2/fondo1.svg")
+    background-repeat: no-repeat
+    background-size: cover
+    border-bottom-left-radius: 20px
+    border-bottom-right-radius: 20px
+//POSICION PANTALLA//
+.pst
+  position: absolute
+  bottom: 2%
+  left: 0%
+  width: 83px
+  &_1
+    position: absolute !important
+    width: 40px
+    top: -20px
+    left: 35px
+  &_2
+    position: absolute !important
+    width: 40px
+    top: -20px
+    left: 52px
+  &_3
+    position: absolute !important
+    width: 40px
+    top: -20px
+    left: 28px
+  &_4
+    position: absolute !important
+    width: 40px
+    top: -20px
+    left: 48px
+  &_5
+    position: absolute !important
+    width: 40px
+    top: -20px
+    left: 58px
+  &_6
+    position: absolute !important
+    width: 40px
+    top: -20px
+    left: 42px
+//MARGIN//
+.mgb
+  margin-bottom: 70px
+  
+//CLASES REEMPLAZADAS//
+.traduccionAudio__chat__item__message__bubble
+  background-color: #DDDEFF !important
+  padding: 2em !important
+.tarjeta-audio.color-secundario 
+  background-color: white
+.slyder-f__main
+  width: 79%
+.traduccionAudio__chat__item__message__text__eng.textAudio__ing
+  span
+    font-weight: 400 !important
+.textAudio__esp 
+  color: #777777 !important
+.tarjeta-avatar .tarjeta
+  padding-top: 0 !important
+  height: auto
+.horizontal-scroll
+  align-items: stretch !important
