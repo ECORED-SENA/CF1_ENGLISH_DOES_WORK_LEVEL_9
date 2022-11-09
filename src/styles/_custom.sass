@@ -160,8 +160,55 @@
     background-color: #DDDEFF
     border-bottom-left-radius: 10px
     border-bottom-right-radius: 1opx
-  
-
+  &_3
+    background-color: #FFF0B5 !important
+    border-top: 0 !important
+  &_4
+    background-color: #FFF0F1
+  &_5
+    background-color: #FFF7DA
+  &_6
+    .tabs-b__tab--active
+      background-color: #FFF7DA
+      img
+        filter: grayscale(0) !important
+    .tabs-b__tab
+      img
+        filter: grayscale(1)
+  &_7
+    background-color: #ACADE1 !important
+    border-color: #3C3FA7 !important
+    td
+      border: 3px solid #3C3FA7
+  &_8
+    background-color: #EDEEFF
+    td
+      border: 3px solid #3C3FA7
+  &_9
+    background-color: #FFF0B5
+  &_10
+    background-color: #E1E8FF
+    tr:nth-child(even)
+      background-color: #E1E8FF !important
+  &_11
+    background-color: $color-primario
+  &_12
+    background-color: $color-secundario
+  &_13
+    background-color: #FFDFE0
+    tr:nth-child(even)
+      background-color: #FFDFE0 !important
+  &_14
+    background-color: $color-acento-contenido
+  &_15
+    .acordion__activo
+      background-color: #DDDEFF !important
+    .tarjeta--azul
+      background-color: #F6F6F6
+  &_16
+    .traduccionAudio__chat__item__message__bubble
+      background-color: #FFBFC1 !important
+ 
 //FONDOS COMPLETOS DE CONTENIDO//
 .bg_grad-01
   position: relative
@@ -238,6 +285,62 @@
     background-size: cover
     border-bottom-left-radius: 20px
     border-bottom-right-radius: 20px
+.bg_grad-06
+  position: relative
+  .tarjeta, .row, .slyder-f
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem 
+    top: -8%
+    left: 0
+    width: calc(100% + 6rem)
+    height: calc(100% + 5rem)
+    background-image: url("../assets/curso/tema2/fondo3.svg")
+    background-repeat: no-repeat
+    background-size: cover
+.bg_grad-07
+  position: relative
+  .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 0 
+    top: 43%
+    left: 34%
+    width: 50%
+    height: 38%
+    background-color: #3C3FA7
+.bg_grad-08
+  position: relative
+  .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 0 
+    top: 22%
+    left: 11%
+    width: 90%
+    height: 85%
+    background-color: #3C3FA7
+    border-radius: 20px
+.bg_grad-09
+  position: relative
+  .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 0 
+    top: 0%
+    left: 7%
+    width: 59%
+    height: 85%
+    background-color: #FFBFC1
+    border-radius: 20px
 //POSICION PANTALLA//
 .pst
   position: absolute
@@ -274,6 +377,13 @@
     width: 40px
     top: -20px
     left: 42px
+  &_7
+    position: absolute !important
+    top: 66px
+    right: 57px
+    width: 50px
+  &_8
+    height: 87%
 //MARGIN//
 .mgb
   margin-bottom: 70px

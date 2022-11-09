@@ -34,7 +34,7 @@
                 h3.mb-1 Introducción
                 p Si desea practicar, el siguiente PDF presenta los textos del video anterior, tanto en inglés como en español.   
               .col-sm-auto
-                a.boton.color-acento-botones(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
+                a.boton.color-acento-botones(:href="obtenerLink('downloads/introduccion.pdf')" target="_blank")
                   span Descargar
                   i.fas.fa-file-download
 

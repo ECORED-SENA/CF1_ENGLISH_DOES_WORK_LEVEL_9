@@ -158,32 +158,79 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: '<em>Past Simple</em> (Pasado simple)',
+      referencia:
+        '<em>BBC Learning English. (2019). Past simple and past continuous - 6 Minute Grammar</em>',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=uTB5I8V9Eog',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: '<em>Past Continuous</em> (Pasado continuo)',
+      referencia:
+        '<em>BBC Learning English. (2018). The Past Continuous Tense: The Grammar Gameshow Episode 9</em>',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=MGLedoA3SSE',
+    },
+    {
+      tema: '<em>Habits in the past</em> (Hábitos en el pasado)',
+      referencia:
+        '<em>British Council. (s. f.). Past habits - "used to", "would" and the past simple. British Council LearnEnglish.</em>',
+      tipo: 'Artículo',
+      link:
+        'https://learnenglish.britishcouncil.org/grammar/b1-b2-grammar/past-habits-used-to-would-and-the-past-simple ',
+    },
+    {
+      tema:
+        '<em>Sequential linkers - Past time</em> (Conectores secuenciales - Tiempo pasado)',
+      referencia: '<em>OnEnglish Online. (2016). Time Linkers</em>',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=ik_DTkDE858 ',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: '<em>Base form</em> / Forma base',
+      significado:
+        'forma más básica de un verbo, sin ningún tipo de terminación específica.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: '<em>Past Simple</em> / Pasado Simple',
+      significado:
+        'tiempo verbal que hace referencia a acciones que se llevaron a cabo en un momento o tiempo previo al ahora.',
+    },
+    {
+      termino: '<em>Past continuous</em> / Pasado continuo',
+      significado:
+        'tiempo verbal que hace referencia a acciones que se estaban llevando a cabo en un momento del pasado.',
+    },
+    {
+      termino: '<em>Time expressions</em> / Expresiones de tiempo:',
+      significado:
+        'son expresiones que dan información sobre el tiempo en que sucede algo y se emplean para hablar del momento en que se realiza una acción.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Coordinación de Universidad Abierta y Educación a Distancia. (s. f.). Past time expressions (yesterday, last week, last night, two years ago). Ambiente Virtual de Idiomas.',
+      link:
+        'https://avi.cuaed.unam.mx/repositorio/moodle/pluginfile.php/1987/mod_resource/content/17/contenido/index.html',
+    },
+    {
+      referencia:
+        'Equipo académico. (2021a). Aprende cómo usar correctamente el past perfect del inglés. British Council Colombia.',
+      link:
+        ' https://www.britishcouncil.co/blog/aprende-ingles/past-perfect?gclid=Cj0KCQjwr4eYBhDrARIsANPywCiFZGTlAb1sBuwQfP5RNcoGFmoK_D63LaqQvK7uuuTcxAZHqULSnvQaAuRJEALw_wcB',
+    },
+    {
+      referencia:
+        'Equipo académico. (2021b). Estructura, reglas y ejemplos del present simple en inglés.  British Council Colombia.',
+      link: 'https://www.britishcouncil.co/blog/aprende-ingles/present-simple',
+    },
+    {
+      referencia:
+        'Equipo académico. (2021c). Past simple del inglés: uso, estructura y conjugación. British Council Colombia.',
+      link: 'https://www.britishcouncil.co/blog/aprende-ingles/past-simple',
     },
   ],
   creditos: {
@@ -197,9 +244,30 @@ export default {
     contenidoInstruccional: [
       {
         nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Asesor metodológico y pedagógico',
+        cargo: 'Responsable equipo de desarrollo curricular',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Jesús Edgardo Contreras Ramírez',
+        cargo: 'Experto temático',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Gloria Lida Alzate Suárez',
+        cargo: 'Diseñadora instruccional',
+        centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Ana Catalina Córdoba Sus',
+        cargo: 'Asesora metodológica',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Darío González',
+        cargo: 'Corrector de estilo',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
@@ -210,8 +278,14 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Yuli Rey',
         cargo: 'Diseño web',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Daniel Polanco',
+        cargo: 'Validación diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
@@ -222,7 +296,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Carlos Andrés Díaz Pinto',
         cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
@@ -235,16 +309,6 @@ export default {
       },
     ],
     gestoresRepositorio: [
-      {
-        nombre: 'Álvaro Andrés Angarita Ramirez',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
-      {
-        nombre: 'Daniel Felipe Varón Molina',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',

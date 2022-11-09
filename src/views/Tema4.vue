@@ -147,7 +147,7 @@
           span.colr_4.text-bold <em>Finally, </em> 
           span.colr.text-bold <em>cook it during thirty minutes.</em>
 
-    p.colr Let’s see if you are able to complete the following sentences with the correct linkers:
+    p.colr <em>Let’s see if you are able to complete the following sentences with the correct linkers:</em>
     p.mb-5 Veamos si es capaz de completar las siguientes frases con los conectores correctos: 
 
     Dialogo.color-primario(:dialogo="dialogo")

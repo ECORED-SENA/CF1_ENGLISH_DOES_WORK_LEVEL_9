@@ -17,13 +17,13 @@
     .bg_grad-03
       .tarjeta.bgr_1.p-4.mgb
         h4.text-center.colr <em>Vocabulary</em> / Vocabulario 
-        p.mb-0.text-center.colr Expressions that can be used in English to have a more complex conversation.
+        p.mb-0.text-center.colr <em>Expressions that can be used in English to have a more complex conversation.</em>
         p.mb-5.text-center Expresiones que se pueden usar en inglés para tener una conversación más compleja.
         .row.justify-content-center.mb-3
           .col-xl-2
             .tarjeta.p-2.d-flex.align-items-end.justify-content-center(:style="{'background-image': `url(${require('@/assets/curso/tema1/2.png')})`}" style='height: 311px')
               .tarjeta.bgr_1.p-4.positio-relative
-                p.mb-0.text-center.text-bold Feel blue
+                p.mb-0.text-center.text-bold <em>Feel blue</em>
                 Audio.color-acento-botones.pst_1(
                   :audio="require('@/assets/componentes/audios/1-1.mp3')"
                   @audio-hover="mostrarIndicadorAudio = false"
@@ -32,7 +32,7 @@
           .col-xl-2
             .tarjeta.p-2.d-flex.align-items-end.justify-content-center(:style="{'background-image': `url(${require('@/assets/curso/tema1/3.png')})`}" style='height: 311px')
               .tarjeta.bgr_1.px-3.py-4.positio-relative
-                p.mb-0.text-center.text-bold Green with envy
+                p.mb-0.text-center.text-bold <em>Green with envy</em>
                 Audio.color-acento-botones.pst_2(
                   :audio="require('@/assets/componentes/audios/1-2.mp3')"
                   @audio-hover="mostrarIndicadorAudio = false"
@@ -41,7 +41,7 @@
           .col-xl-2
             .tarjeta.p-2.d-flex.align-items-end.justify-content-center(:style="{'background-image': `url(${require('@/assets/curso/tema1/4.png')})`}" style='height: 311px')
               .tarjeta.bgr_1.p-4.positio-relative
-                p.mb-0.text-center.text-bold Fed up
+                p.mb-0.text-center.text-bold <em>Fed up</em>
                 Audio.color-acento-botones.pst_3(
                   :audio="require('@/assets/componentes/audios/1-3.mp3')"
                   @audio-hover="mostrarIndicadorAudio = false"
@@ -50,7 +50,7 @@
           .col-xl-2
             .tarjeta.p-2.d-flex.align-items-end.justify-content-center(:style="{'background-image': `url(${require('@/assets/curso/tema1/5.png')})`}" style='height: 311px')
               .tarjeta.bgr_1.p-4.positio-relative
-                p.mb-0.text-center.text-bold On cloud nine
+                p.mb-0.text-center.text-bold <em>On cloud nine</em>
                 Audio.color-acento-botones.pst_2(
                   :audio="require('@/assets/componentes/audios/1-4.mp3')"
                   @audio-hover="mostrarIndicadorAudio = false"
@@ -59,7 +59,7 @@
           .col-xl-2
             .tarjeta.p-2.d-flex.align-items-end.justify-content-center(:style="{'background-image': `url(${require('@/assets/curso/tema1/6.png')})`}" style='height: 311px')
               .tarjeta.bgr_1.p-4.positio-relative
-                p.mb-0.text-center.text-bold Tickled pink
+                p.mb-0.text-center.text-bold <em>Tickled pink</em>
                 Audio.color-acento-botones.pst_4(
                   :audio="require('@/assets/componentes/audios/1-5.mp3')"
                   @audio-hover="mostrarIndicadorAudio = false"
@@ -69,7 +69,7 @@
           .col-xl-2
             .tarjeta.p-2.d-flex.align-items-end.justify-content-center(:style="{'background-image': `url(${require('@/assets/curso/tema1/7.png')})`}" style='height: 311px')
               .tarjeta.bgr_1.p-4.positio-relative
-                p.mb-0.text-center.text-bold To be yellow
+                p.mb-0.text-center.text-bold <em>To be yellow</em>
                 Audio.color-acento-botones.pst_2(
                   :audio="require('@/assets/componentes/audios/1-6.mp3')"
                   @audio-hover="mostrarIndicadorAudio = false"
@@ -78,7 +78,7 @@
           .col-xl-2
             .tarjeta.p-2.d-flex.align-items-end.justify-content-center(:style="{'background-image': `url(${require('@/assets/curso/tema1/8.png')})`}" style='height: 311px')
               .tarjeta.bgr_1.px-3.py-4.positio-relative
-                p.mb-0.text-center.text-bold Chilled out
+                p.mb-0.text-center.text-bold <em>Chilled out</em>
                 Audio.color-acento-botones.pst_1(
                   :audio="require('@/assets/componentes/audios/1-7.mp3')"
                   @audio-hover="mostrarIndicadorAudio = false"
@@ -87,7 +87,7 @@
           .col-xl-2
             .tarjeta.p-2.d-flex.align-items-end.justify-content-center(:style="{'background-image': `url(${require('@/assets/curso/tema1/9.png')})`}" style='height: 311px')
               .tarjeta.bgr_1.p-4.positio-relative
-                p.mb-0.text-center.text-bold Spaced out
+                p.mb-0.text-center.text-bold <em>Spaced out</em>
                 Audio.color-acento-botones.pst_4(
                   :audio="require('@/assets/componentes/audios/1-8.mp3')"
                   @audio-hover="mostrarIndicadorAudio = false"
@@ -96,7 +96,7 @@
           .col-xl-2
             .tarjeta.p-2.d-flex.align-items-end.justify-content-center(:style="{'background-image': `url(${require('@/assets/curso/tema1/10.png')})`}" style='height: 311px')
               .tarjeta.bgr_1.p-4.positio-relative
-                p.mb-0.text-center.text-bold Shaken up
+                p.mb-0.text-center.text-bold <em>Shaken up</em>
                 Audio.color-acento-botones.pst_6(
                   :audio="require('@/assets/componentes/audios/1-9.mp3')"
                   @audio-hover="mostrarIndicadorAudio = false"
@@ -105,7 +105,7 @@
           .col-xl-2
             .tarjeta.p-2.d-flex.align-items-end.justify-content-center(:style="{'background-image': `url(${require('@/assets/curso/tema1/11.png')})`}" style='height: 311px')
               .tarjeta.bgr_1.p-4.positio-relative
-                p.mb-0.text-center.text-bold To be on pins and needles
+                p.mb-0.text-center.text-bold <em>To be on pins and needles</em>
                 Audio.color-acento-botones.pst_5(
                   :audio="require('@/assets/componentes/audios/1-10.mp3')"
                   @audio-hover="mostrarIndicadorAudio = false"
@@ -121,7 +121,7 @@
           figure.d-flex.justify-content-center
             img.w-auto(src="@/assets/curso/tema1/12.svg", alt="alt")
           .bgr_2.p-4
-            p.colr.text-bold Conversation 1 :
+            p.colr.text-bold <em>Conversation</em> 1:
             span.text-bold.colr_4 <em>Sara: </em> 
             span.colr <em>Hey, Danny! How’re you doing?</em> 
             br
@@ -168,7 +168,7 @@
 
     Dialogo.color-primario(:dialogo="dialogo")
       template(#nombre-actividad) Arrastrar y Soltar
-      template(#titulo-actividad) Titulo de actividad - Completa la conversación.
+      template(#titulo-actividad) <em>Dialogue Feelings and emotions</em> / Diálogo sentimientos y emociones 
       template(#descripcion-actividad) Arrastra y suelta el cada una de las palabras en el orden correcto.
 
 
@@ -207,31 +207,32 @@ export default {
       dialogo: [
         {
           personaje: 'Gio',
-          textoIng: 'What’s *** Tory?',
+          textoIng: '<em>What’s *** Tory?</em>',
           textoEsp: '¿Qué hay, Tory?',
           audio: require('@/assets/componentes/audios/1-12.mp3'),
-          palabra: 'UP',
+          palabra: '<em>UP</em>',
         },
         {
           personaje: 'Tory',
-          textoIng: 'Not much, Gio, I feel completely ***!',
+          textoIng: '<em>Not much, Gio, I feel completely ***!</em>',
           textoEsp: 'No mucho, Geo, ¡me siento harta!',
           audio: require('@/assets/componentes/audios/1-13.mp3'),
-          palabra: 'FED UP',
+          palabra: '<em>FED UP</em>',
         },
         {
           personaje: 'Gio',
-          textoIng: 'Really? I am on *** nine! But, tell me, what’s going on?',
+          textoIng:
+            '<em>Really? I am on *** nine! But, tell me, what’s going on?</em>',
           textoEsp: '¿En serio? ¡Yo estoy súper feliz! Pero, dime, ¿qué pasa?',
           audio: require('@/assets/componentes/audios/1-14.mp3'),
-          palabra: 'CLOUD',
+          palabra: '<em>CLOUD</em>',
         },
         {
           personaje: 'Tory',
-          textoIng: ' I can imagine you *** the test, but I failed it.',
+          textoIng: '<em>I can imagine you *** the test, but I failed it.</em>',
           textoEsp: 'Me imagino que tú pasaste el examen, pero yo lo perdí.',
           audio: require('@/assets/componentes/audios/1-15.mp3'),
-          palabra: 'PASSED',
+          palabra: '<em>PASSED</em>',
         },
       ],
     },
