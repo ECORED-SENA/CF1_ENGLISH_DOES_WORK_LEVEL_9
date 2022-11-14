@@ -150,10 +150,10 @@
     p.colr <em>Let’s see if you are able to complete the following sentences with the correct linkers:</em>
     p.mb-5 Veamos si es capaz de completar las siguientes frases con los conectores correctos: 
 
-    Dialogo.color-primario(:dialogo="dialogo")
+    Dialogo.color-primario.pst_9(:dialogo="dialogo")
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) Titulo de actividad - Completa la conversación.
-      template(#descripcion-actividad) Arrastra y suelta el cada una de las palabras en el orden correcto.
+      template(#descripcion-actividad) Arrastra y suelta eN cada una de las palabras en el orden correcto.
 
 
 

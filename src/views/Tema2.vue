@@ -30,7 +30,7 @@
       .row.mb-5
         .col-xl-9
           p.colr <em>The simple present tense is conjugated using the basic form of the verb (it is the same as the infinitive, but without the word “to”). It is of great importance to consider that, when a verb is conjugated in the third-person singular, an "s" must be added at the end.</em> 
-          p.mgb El tiempo presente simple se conjuga utilizando la forma básica del verbo (viene siendo igual al infinitivo, pero sin la palabra “to”). Resulta de gran importancia considerar que, cuando se conjuga un verbo en la tercera persona del singular, debe añadirse una “s” al final.
+          p.mgb El tiempo presente simple se conjuga utilizando la forma básica del verbo (viene siendo igual al infinitivo, pero sin la palabra “<em>to</em>”). Resulta de gran importancia considerar que, cuando se conjuga un verbo en la tercera persona del singular, debe añadirse una “s” al final.
           .row
             .col-auto.d-flex.align-items-center
               figure.d-flex.justify-content-center
@@ -356,7 +356,7 @@
                   .indicador--click(v-if="mostrarIndicador")
     
     ModalA(:abrir-modal.sync="modal1")
-      p.colr.text-bold Conversación 1 :
+      p.colr.text-bold Conversación 2 :
       span.text-bold.colr_4 Joe: 
       span Hola, Danna. ¿Qué haces los fines de semana?
       br
@@ -371,7 +371,7 @@
 
     p.colr <em>Now we are going to see a more complex interaction, where questions can be asked in the present simple using the <b>wh questions</b> and the word "<b>because</b>", that is used to connect the effect and the cause that can represent a reason or explanation. Complete the following dialogue.</em>
     p.mb-5 Ahora, vamos a ver una interacción más compleja, donde se pueden realizar preguntas en presente simple utilizando las 
-     span.colr_4.text-bold <em>wh questions</em> 
+     span.colr_4.text-bold <em>wh questions </em> 
      | y la palabra 
      span.colr_4.text-bold “<em>because</em>”, 
      | que se emplea para conectar el efecto y la causa que pueden representar una razón o explicación. Complete el siguiente diálogo.
@@ -379,7 +379,7 @@
     Dialogo.color-primario.mb-5(:dialogo="dialogo")
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) <em>Wh questions and the word “because”</em>
-      template(#descripcion-actividad) Arrastra y suelta el cada una de las palabras en el orden correcto.
+      template(#descripcion-actividad) Arrastra y suelta en cada una de las palabras en el orden correcto.
     
     .row.mb-5.bgr_9.tarjeta.p-4.justify-content-center
       .col-xl-auto
@@ -563,7 +563,7 @@
         .color-secundario.mb-5
           .tabla-b__header.bgr_12
             h4.mb-0 <em>Irregular verbs</em>
-            p <em>Irregular verbs don’t follow any rule, they all appear in a list: the irregular verb list:</em>
+            p <em>Irregular verbs don’t follow any rule, they all appear in a list, the irregular verb list:</em>
             Audio.color-primario.m-auto(
                 :audio="require('@/assets/componentes/audios/2-25.mp3')"
                 @audio-hover="mostrarIndicadorAudio = false"
@@ -696,13 +696,13 @@
                 )
                   .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
               .col-12.col-lg-auto
-                a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
+                a.boton.color-acento-botones.indicador__container(@click="modal2 = true")
                   span Ver traducción 
                   i.fas.fa-language
                   .indicador--click(v-if="mostrarIndicador")
     
-    ModalA(:abrir-modal.sync="modal1")
-      p.colr.text-bold Conversación 1 :
+    ModalA(:abrir-modal.sync="modal2")
+      p.colr.text-bold Conversación 3 :
       span.text-bold.colr_4 Zury: 
       span Frank, ¿por qué tu mamá se puso tan brava cuando llegaste anoche?
       br
@@ -729,8 +729,8 @@
     
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/EzmlajPkEaI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+   
     p.colr <em>In order to add ING to the verbs, you have to follow some specific rules. These rules are used in affirmative, negative, and interrogative sentences because the verb is always in ING form, let’s see them:</em>
     p.mb-5 Para añadir ING a los verbos, hay que seguir algunas reglas específicas. Estas reglas se utilizan en oraciones afirmativas, negativas e interrogativas, porque el verbo siempre está en la forma ING, veámoslas:
 
@@ -812,7 +812,7 @@
                 h4.mb-0.colr_4 <em>Warning #1</em>
                 h4 Advertencia #1
             p.mb-0.colr_1 <em>If any verb is misspelled, the whole sentence will be wrong.</em> 
-            p Si algún verbo se escribe mal, toda la oración estará mal.
+            p.text-white Si algún verbo se escribe mal, toda la oración estará mal.
     
     .row.mgb
       .col-12.col-xl-7(data-aos="fade-left")
@@ -829,7 +829,7 @@
 
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/4F4rcynFhGQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     p.colr <em>Let’s see how past continuous is used to complement the past simple in order to give context to the actions that were being done at a moment in the past. Let’s practice with a short exercise.</em>
     p.mb-5 Veamos cómo se utiliza el pasado continuo para complementar el pasado simple con el fin de dar contexto a las acciones que se realizaban en un momento del pasado. Vamos a practicar con un ejercicio corto.
@@ -837,7 +837,7 @@
     Dialogo.color-primario.mb-5(:dialogo="dialogo9")
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) Diálogo A de práctica
-      template(#descripcion-actividad) Arrastra y suelta el cada una de las palabras en el orden correcto.
+      template(#descripcion-actividad) Arrastra y suelta en cada una de las palabras en el orden correcto.
 
     .row.mgb
       .col-12.col-xl-5(data-aos="fade-right")
@@ -849,7 +849,7 @@
     Dialogo.color-primario.mb-5(:dialogo="dialogo11")
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) Diálogo B de práctica
-      template(#descripcion-actividad) Arrastra y suelta el cada una de las palabras en el orden correcto.
+      template(#descripcion-actividad) Arrastra y suelta en cada una de las palabras en el orden correcto.
 
 
 
@@ -867,6 +867,7 @@ export default {
   },
   data: () => ({
     modal1: false,
+    modal2: false,
     dialogo1: [
       {
         textoIng:
@@ -923,7 +924,7 @@ export default {
     dialogo8: [
       {
         textoIng:
-          '<em>After having seen some specific rules of “ing”, we can conclude that the past continuous expresses the duration of a past action and does not indicate whether it is finished, while the past simple refers to a specific action that began and ended in the past.<br><br>To make the past simple, we put an -ed at the end of a regular verb, or we use an irregular verb, which has another form. The past continuous is formed with was / were, plus the gerund (the -ing form of the verb).</em>',
+          '<em>After having seen some specific rules of “<b>ing</b>”, we can conclude that the past continuous expresses the duration of a past action and does not indicate whether it is finished, while the past simple refers to a specific action that began and ended in the past.<br><br>To make the past simple, we put an -ed at the end of a regular verb, or we use an irregular verb, which has another form. The past continuous is formed with was / were, plus the gerund (the -ing form of the verb).</em>',
         textoEsp:
           'Después de haber visto algunas reglas específicas del “ing”, podemos concluir que el pasado continuo (past continuous) expresa la duración de una acción pasada y no indica si está terminada, mientras que el pasado simple (past simple) se refiere a una acción puntual que empezó y acabó en el pasado.<br><br>Para formar el pasado simple, ponemos una -ed al final de un verbo regular, o usamos un verbo irregular, que tiene otra forma. El pasado continuo se forma con was / were más el gerundio (la forma -ing del verbo).',
       },
@@ -1001,7 +1002,7 @@ export default {
           textoIng: '<em>What were you doing *** I called you?</em>',
           textoEsp: '¿Qué estabas haciendo cuando te llamé?',
           audio: require('@/assets/componentes/audios/2-27.mp3'),
-          palabra: '<em>WHEN</em>',
+          palabra: '<em>when</em>',
         },
         {
           personaje: 'Richard:',
@@ -1010,7 +1011,7 @@ export default {
           textoEsp:
             'Lo siento Helena, estaba escuchando música mientras sonaba el teléfono.',
           audio: require('@/assets/componentes/audios/2-28.mp3'),
-          palabra: '<em>WHILE</em>',
+          palabra: '<em>while</em>',
         },
         {
           personaje: 'Helena:',
@@ -1018,7 +1019,7 @@ export default {
           textoEsp:
             'Estaba intentando arreglar mi ordenador, por eso te he llamado.',
           audio: require('@/assets/componentes/audios/2-29.mp3'),
-          palabra: '<em>THAT’S WHY</em>',
+          palabra: '<em>that’s why</em>',
         },
         {
           personaje: 'Richard:',
@@ -1038,7 +1039,7 @@ export default {
         },
         {
           nombre: 'Student:',
-          img: require('@/assets/curso/tema2/38.svg'),
+          img: require('@/assets/curso/tema2/20.svg'),
         },
       ],
       dialogo: [
@@ -1049,7 +1050,7 @@ export default {
           textoEsp:
             '¿Estaba revisando su teléfono mientras yo hablaba con usted?',
           audio: require('@/assets/componentes/audios/2-31.mp3'),
-          palabra: '<em>WHILE</em>',
+          palabra: '<em>while</em>',
         },
         {
           personaje: 'Student:',
@@ -1058,7 +1059,7 @@ export default {
           textoEsp:
             'Por supuesto que no, solo estaba poniendo mi teléfono en modo de silencio cuando usted me llamó por mi nombre.',
           audio: require('@/assets/componentes/audios/2-32.mp3'),
-          palabra: '<em>WHEN</em>',
+          palabra: '<em>when</em>',
         },
         {
           personaje: 'Teacher:',
@@ -1067,7 +1068,7 @@ export default {
           textoEsp:
             'Pensé que estaba jugando, por eso estaba enojado con usted.',
           audio: require('@/assets/componentes/audios/2-33.mp3'),
-          palabra: '<em>WHY</em>',
+          palabra: '<em>why</em>',
         },
         {
           personaje: 'Student:',

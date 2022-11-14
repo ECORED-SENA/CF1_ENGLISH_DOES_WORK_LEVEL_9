@@ -169,7 +169,7 @@
     Dialogo.color-primario(:dialogo="dialogo")
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) <em>Dialogue Feelings and emotions</em> / Diálogo sentimientos y emociones 
-      template(#descripcion-actividad) Arrastra y suelta el cada una de las palabras en el orden correcto.
+      template(#descripcion-actividad) Arrastra y suelta en cada una de las palabras en el orden correcto.
 
 
 </template>
@@ -210,14 +210,14 @@ export default {
           textoIng: '<em>What’s *** Tory?</em>',
           textoEsp: '¿Qué hay, Tory?',
           audio: require('@/assets/componentes/audios/1-12.mp3'),
-          palabra: '<em>UP</em>',
+          palabra: '<em>up</em>',
         },
         {
           personaje: 'Tory',
           textoIng: '<em>Not much, Gio, I feel completely ***!</em>',
           textoEsp: 'No mucho, Geo, ¡me siento harta!',
           audio: require('@/assets/componentes/audios/1-13.mp3'),
-          palabra: '<em>FED UP</em>',
+          palabra: '<em>fed up</em>',
         },
         {
           personaje: 'Gio',
@@ -225,14 +225,14 @@ export default {
             '<em>Really? I am on *** nine! But, tell me, what’s going on?</em>',
           textoEsp: '¿En serio? ¡Yo estoy súper feliz! Pero, dime, ¿qué pasa?',
           audio: require('@/assets/componentes/audios/1-14.mp3'),
-          palabra: '<em>CLOUD</em>',
+          palabra: '<em>cloud</em>',
         },
         {
           personaje: 'Tory',
           textoIng: '<em>I can imagine you *** the test, but I failed it.</em>',
           textoEsp: 'Me imagino que tú pasaste el examen, pero yo lo perdí.',
           audio: require('@/assets/componentes/audios/1-15.mp3'),
-          palabra: '<em>PASSED</em>',
+          palabra: '<em>passed</em>',
         },
       ],
     },

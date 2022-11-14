@@ -46,8 +46,8 @@
             )
               .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
               
-    p.colr As you can see in the previous examples, those expressions only show how the person felt at a moment in the past or a period of time. Therefore, in order to be able to communicate past routines and habits, let’s see how to use “used to” and “would”. 
-    p Como se puede ver en los ejemplos anteriores, esas expresiones solo muestran cómo se sentía la persona en un momento del pasado o en un periodo de tiempo. Por lo tanto, para poder comunicar rutinas y hábitos pasados, veamos cómo utilizar "used to" y "would".
+    p.colr <em>As you can see in the previous examples, those expressions only show how the person felt at a moment in the past or a period of time. Therefore, in order to be able to communicate past routines and habits, let’s see how to use “used to” and “would”.</em> 
+    p Como se puede ver en los ejemplos anteriores, esas expresiones solo muestran cómo se sentía la persona en un momento del pasado o en un periodo de tiempo. Por lo tanto, para poder comunicar rutinas y hábitos pasados, veamos cómo utilizar "<em>used to</em>" y "<em>would</em>".
 
     separador
 
@@ -194,12 +194,12 @@
               p.mb-0.text-white En caso de que se necesite saber alguna información sobre las rutinas o actividades diarias de algunas personas, hay que utilizar una estructura interrogativa.
     
     p.colr <em>Let’s see if you are able to complete the following sentences with “used to” based on the structures seen:</em>
-    p.mb-5 Veamos si es capaz de completar las siguientes frases con "used to" a partir de las estructuras vistas:
+    p.mb-5 Veamos si es capaz de completar las siguientes frases con "<em>used to</em>" a partir de las estructuras vistas:
 
-    Dialogo.color-primario.mb-5(:dialogo="dialogo")
+    Dialogo.color-primario.mb-5.pst_9(:dialogo="dialogo")
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) <em>Complete the following sentences with “used to” based on the structures seen.</em>
-      template(#descripcion-actividad) Arrastra y suelta el cada una de las palabras en el orden correcto.
+      template(#descripcion-actividad) Arrastra y suelta en cada una de las palabras en el orden correcto.
 
     separador
 
@@ -349,10 +349,10 @@
       span.colr_4.text-bold "would" 
       | a partir de las estructuras vistas:
     
-    Dialogo.color-primario.mb-5(:dialogo="dialogo4")
+    Dialogo.color-primario.mb-5.pst_9(:dialogo="dialogo4")
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) <em>Complete the following sentences with “would” based on the structures seen.</em>
-      template(#descripcion-actividad) Arrastra y suelta el cada una de las palabras en el orden correcto.
+      template(#descripcion-actividad) Arrastra y suelta en cada una de las palabras en el orden correcto.
 
     p.colr Here are some other examples:
     p.mb-5 Aquí hay otros ejemplos:
@@ -439,21 +439,21 @@ export default {
           textoIng: '<em>Where *** you use to go on vacation in summer?</em>',
           textoEsp: '',
           audio: require('@/assets/componentes/audios/3-11.mp3'),
-          palabra: '<em>DID</em>',
+          palabra: '<em>did</em>',
         },
         {
           personaje: 'Gina:',
           textoIng: '<em>I *** to travel to Costa Rica, my hometown.</em>',
           textoEsp: '',
           audio: require('@/assets/componentes/audios/3-12.mp3'),
-          palabra: '<em>USED</em>',
+          palabra: '<em>used</em>',
         },
         {
           personaje: 'Victor:',
           textoIng: '<em>Awesome! I *** use to travel when I was younger.</em>',
           textoEsp: '',
           audio: require('@/assets/componentes/audios/3-13.mp3'),
-          palabra: '<em>DIDN’T</em>',
+          palabra: '<em>didn’t</em>',
         },
         {
           personaje: 'Gina:',
@@ -467,7 +467,7 @@ export default {
       personajes: [
         {
           nombre: 'Eddy:',
-          img: require('@/assets/curso/tema3/18.svg'),
+          img: require('@/assets/curso/tema3/22.svg'),
         },
         {
           nombre: 'Paula:',
@@ -481,7 +481,7 @@ export default {
             '<em>I *** (not/go) out every weekend when I was in college.</em>',
           textoEsp: '',
           audio: require('@/assets/componentes/audios/3-24.mp3'),
-          palabra: '<em>WOULDN’T GO</em>',
+          palabra: '<em>wouldn’t go</em>',
         },
         {
           personaje: 'Paula:',
@@ -489,7 +489,7 @@ export default {
             '<em>I know you *** (spend) your weekend playing videogames at home.</em>',
           textoEsp: '',
           audio: require('@/assets/componentes/audios/3-25.mp3'),
-          palabra: '<em>WOULD SPEND</em>',
+          palabra: '<em>would spend</em>',
         },
         {
           personaje: 'Eddy:',
@@ -497,7 +497,7 @@ export default {
             '<em>What *** you do (do) on weekend when you were in college?</em>',
           textoEsp: '',
           audio: require('@/assets/componentes/audios/3-26.mp3'),
-          palabra: '<em>WOULD</em>',
+          palabra: '<em>would</em>',
         },
         {
           personaje: 'Paula:',
@@ -505,7 +505,7 @@ export default {
             '<em>I had a boyfriend at college so I *** (spend) the whole weekend with him</em>',
           textoEsp: '',
           audio: require('@/assets/componentes/audios/3-27.mp3'),
-          palabra: '<em>WOULD SPEND</em>',
+          palabra: '<em>would spend</em>',
         },
       ],
     },
