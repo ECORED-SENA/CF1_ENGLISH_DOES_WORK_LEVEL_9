@@ -152,8 +152,8 @@
 
     .bg_grad-10
       .row.justify-content-center
-        .col-xl-6.d-flex.align-items-center
-          div
+        .col-xl-6.d-flex.align-items-center.text-bold
+          div.mt-5
             span.tool ---- 
               .tool-up.text-center.text-white
                 p.mb-0 <em>First</em> 
@@ -175,14 +175,14 @@
                 p.mb-0 <em>Finally</em> 
             | <em>, I decided to ask for a student’s loan, it will be more expensive, but I won’t waste my time.</em>
         .col-xl-1.mgt
-          Audio.color-acento-botones.m-auto.mb-3(
+          Audio.color-secundario.m-auto.mb-3(
             :audio="require('@/assets/componentes/audios/4-9.mp3')"
             @audio-hover="mostrarIndicadorAudio = false"
           )
             .indicador--click(v-if="mostrarIndicadorAudio")
         .col-xl-3
           figure.d-flex.justify-content-center
-            img.w-auto(src="@/assets/curso/tema4/1.png", alt="alt")
+            img.w-auto(src="@/assets/curso/tema4/11.svg", alt="alt")
 
     
 
