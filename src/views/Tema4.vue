@@ -150,11 +150,41 @@
     p.colr <em>Let’s see if you are able to complete the following sentences with the correct linkers:</em>
     p.mb-5 Veamos si es capaz de completar las siguientes frases con los conectores correctos: 
 
-    Dialogo.color-primario.pst_9(:dialogo="dialogo")
-      template(#nombre-actividad) Arrastrar y Soltar
-      template(#titulo-actividad) Titulo de actividad - Completa la conversación.
-      template(#descripcion-actividad) Arrastra y suelta eN cada una de las palabras en el orden correcto.
+    .bg_grad-10
+      .row.justify-content-center
+        .col-xl-6.d-flex.align-items-center
+          div
+            span.tool ---- 
+              .tool-up.text-center.text-white
+                p.mb-0 <em>First</em> 
+            | <em>, I entered college, it was the best day of my life, </em> 
+            span.tool ---- 
+              .tool-up.text-center.text-white
+                p.mb-0 <em>then</em>
+            | <em>I got graduated. I still can’t believe time really flies when you are having fun. However,</em> 
+            span.tool ---- 
+              .tool-up.text-center.text-white
+                p.mb-0 <em>after</em> 
+            | <em>finishing the ceremony I felt empty, like something was missing. That is why I talked to Professor Geller, my favorite teacher. He suggested studying my master’s degree, but</em> 
+            span.tool ---- 
+              .tool-up.text-center.text-white
+                p.mb-0 <em>before that</em> 
+            | <em>, I had to make money to pay the fees, it was incredibly expensive.</em> 
+            span.tool ---- 
+              .tool-up.text-center.text-white
+                p.mb-0 <em>Finally</em> 
+            | <em>, I decided to ask for a student’s loan, it will be more expensive, but I won’t waste my time.</em>
+        .col-xl-1.mgt
+          Audio.color-acento-botones.m-auto.mb-3(
+            :audio="require('@/assets/componentes/audios/4-9.mp3')"
+            @audio-hover="mostrarIndicadorAudio = false"
+          )
+            .indicador--click(v-if="mostrarIndicadorAudio")
+        .col-xl-3
+          figure.d-flex.justify-content-center
+            img.w-auto(src="@/assets/curso/tema4/1.png", alt="alt")
 
+    
 
 
 

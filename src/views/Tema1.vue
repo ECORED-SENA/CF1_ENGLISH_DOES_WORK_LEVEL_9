@@ -169,7 +169,7 @@
     Dialogo.color-primario(:dialogo="dialogo")
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) <em>Dialogue Feelings and emotions</em> / Diálogo sentimientos y emociones 
-      template(#descripcion-actividad) Arrastra y suelta en cada una de las palabras en el orden correcto.
+      template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.
 
 
 </template>

@@ -344,6 +344,22 @@
     height: 85%
     background-color: #FFBFC1
     border-radius: 20px
+.bg_grad-10
+  position: relative
+  .tarjeta, .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 
+    top: -30px
+    left: 0
+    width: 100%
+    height: calc(100% + 4rem)
+    background-image: url("../assets/curso/tema1/fondo2.svg")
+    background-repeat: no-repeat
+    background-size: cover
+    border-radius: 20px
 //POSICION PANTALLA//
 .pst
   position: absolute
@@ -390,9 +406,14 @@
   &_9
     .dialogo__chat__item__message__translate-btn
       display: none
+  &_10
+    .traduccionAudio__chat__item__message__translate-btn
+      display: none
 //MARGIN//
 .mgb
   margin-bottom: 70px
+.mgt
+  margin-top: 70px
   
 //CLASES REEMPLAZADAS//
 .traduccionAudio__chat__item__message__bubble
@@ -412,3 +433,41 @@
   height: auto
 .horizontal-scroll
   align-items: stretch !important
+.tool
+  background-color: #ffe891
+  padding: .2rem
+  margin: 0 5px
+  border-radius: 5px
+  position: relative
+  cursor: pointer
+  &:hover
+    .tool-up
+      opacity: 1
+      visibility: visible
+      animation: up .2s ease-in-out
+
+  .tool-up
+    transition: all .2s ease-in-out
+    opacity: 0
+    visibility: hidden
+    position: absolute
+    bottom: 0
+    left: 15px
+    width: fit-content
+    background-color: #3c3fa7
+    padding: 1rem
+    transform: translateY(-70%) translateX(-50%)
+    min-width: 110px
+    border-radius: 10px
+    p
+      font-weight: bold
+      color: $white !important
+    &::after
+      position: absolute
+      content: ''
+      width: 20px
+      height: 20px
+      transform: rotate(45deg) translateX(10%)
+      bottom: -10%
+      left: 40%
+      background-color: #3c3fa7

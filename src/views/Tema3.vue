@@ -199,7 +199,7 @@
     Dialogo.color-primario.mb-5.pst_9(:dialogo="dialogo")
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) <em>Complete the following sentences with “used to” based on the structures seen.</em>
-      template(#descripcion-actividad) Arrastra y suelta en cada una de las palabras en el orden correcto.
+      template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.
 
     separador
 
@@ -352,7 +352,7 @@
     Dialogo.color-primario.mb-5.pst_9(:dialogo="dialogo4")
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) <em>Complete the following sentences with “would” based on the structures seen.</em>
-      template(#descripcion-actividad) Arrastra y suelta en cada una de las palabras en el orden correcto.
+      template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.
 
     p.colr Here are some other examples:
     p.mb-5 Aquí hay otros ejemplos:

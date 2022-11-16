@@ -379,7 +379,7 @@
     Dialogo.color-primario.mb-5(:dialogo="dialogo")
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) <em>Wh questions and the word “because”</em>
-      template(#descripcion-actividad) Arrastra y suelta en cada una de las palabras en el orden correcto.
+      template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.
     
     .row.mb-5.bgr_9.tarjeta.p-4.justify-content-center
       .col-xl-auto
@@ -404,7 +404,7 @@
     .bg_grad-06
       SlyderF.mgb.bgr_1.tarjeta.p-4(columnas="col-lg-6 col-xl-12")
         div
-          TraduccionT.color-acento-botones.mb-5(:dialogo="dialogo4")(data-aos="flip-up")
+          TraduccionT.color-acento-botones.mb-5.pst_10(:dialogo="dialogo4")(data-aos="flip-up")
           .row.mb-3.justify-content-center
             .col-xl-10
               figure.mb-5.d-flex.justify-content-center
@@ -432,7 +432,7 @@
               )
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
         div
-          TraduccionT.color-acento-botones.mb-5(:dialogo="dialogo5")(data-aos="flip-up")
+          TraduccionT.color-acento-botones.mb-5.pst_10(:dialogo="dialogo5")(data-aos="flip-up")
           .row.mb-3.justify-content-center
             .col-xl-10
               figure.mb-5.d-flex.justify-content-center
@@ -460,7 +460,7 @@
               )
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
         div
-          TraduccionT.color-acento-botones.mb-5(:dialogo="dialogo6")(data-aos="flip-up")
+          TraduccionT.color-acento-botones.mb-5.pst_10(:dialogo="dialogo6")(data-aos="flip-up")
           .row.mb-3.justify-content-center
             .col-xl-10
               figure.mb-5.d-flex.justify-content-center
@@ -837,7 +837,7 @@
     Dialogo.color-primario.mb-5(:dialogo="dialogo9")
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) Diálogo A de práctica
-      template(#descripcion-actividad) Arrastra y suelta en cada una de las palabras en el orden correcto.
+      template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.
 
     .row.mgb
       .col-12.col-xl-5(data-aos="fade-right")
@@ -849,7 +849,7 @@
     Dialogo.color-primario.mb-5(:dialogo="dialogo11")
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) Diálogo B de práctica
-      template(#descripcion-actividad) Arrastra y suelta en cada una de las palabras en el orden correcto.
+      template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.
 
 
 
@@ -924,9 +924,9 @@ export default {
     dialogo8: [
       {
         textoIng:
-          '<em>After having seen some specific rules of “<b>ing</b>”, we can conclude that the past continuous expresses the duration of a past action and does not indicate whether it is finished, while the past simple refers to a specific action that began and ended in the past.<br><br>To make the past simple, we put an -ed at the end of a regular verb, or we use an irregular verb, which has another form. The past continuous is formed with was / were, plus the gerund (the -ing form of the verb).</em>',
+          '<em>After having seen some specific rules of “<b>ing</b>”, we can conclude that the <b>past continuous</b> expresses the duration of a past action and does not indicate whether it is finished, while the <b>past simple</b> refers to a specific action that began and ended in the past.<br><br>To make the past simple, we put an <b>-ed</b> at the end of a regular verb, or we use an irregular verb, which has another form. The past continuous is formed with <b>was / were</b>, plus the gerund (the <b>-ing</b> form of the verb).</em>',
         textoEsp:
-          'Después de haber visto algunas reglas específicas del “ing”, podemos concluir que el pasado continuo (past continuous) expresa la duración de una acción pasada y no indica si está terminada, mientras que el pasado simple (past simple) se refiere a una acción puntual que empezó y acabó en el pasado.<br><br>Para formar el pasado simple, ponemos una -ed al final de un verbo regular, o usamos un verbo irregular, que tiene otra forma. El pasado continuo se forma con was / were más el gerundio (la forma -ing del verbo).',
+          'Después de haber visto algunas reglas específicas del “<b>ing</b>”, podemos concluir que el pasado continuo <em><b>(past continuous)</b></em> expresa la duración de una acción pasada y no indica si está terminada, mientras que el pasado simple <em><b>(past simple)</b></em> se refiere a una acción puntual que empezó y acabó en el pasado.<br><br>Para formar el pasado simple, ponemos una <b>-ed</b> al final de un verbo regular, o usamos un verbo irregular, que tiene otra forma. El pasado continuo se forma con <em><b>was / were</b></em> más el gerundio (la forma <b>-ing</b> del verbo).',
       },
     ],
     dialogo10: [
@@ -963,7 +963,7 @@ export default {
           textoEsp:
             '¡Si! Es impresionante cómo muchas personas se mudan de un lugar a otro y uno ni siquiera se da cuenta.',
           audio: require('@/assets/componentes/audios/2-11.mp3'),
-          palabra: '<em>HOW</em>',
+          palabra: '<em>how</em>',
         },
         {
           personaje: 'Harry:',
@@ -972,7 +972,7 @@ export default {
           textoEsp:
             '¿Dónde te quedas cuando no estás aquí? Porque yo usualmente paso por tu casa y no siempre te veo aquí.',
           audio: require('@/assets/componentes/audios/2-14.mp3'),
-          palabra: '<em>WHERE</em>',
+          palabra: '<em>where</em>',
         },
         {
           personaje: 'Nina:',
@@ -981,7 +981,7 @@ export default {
           textoEsp:
             'Bueno, tengo que ir a casa de mi abuela en la tarde, porque ella está enferma y la cuido.',
           audio: require('@/assets/componentes/audios/2-13.mp3'),
-          palabra: '<em>BECAUSE</em>',
+          palabra: '<em>because</em>',
         },
       ],
     },
