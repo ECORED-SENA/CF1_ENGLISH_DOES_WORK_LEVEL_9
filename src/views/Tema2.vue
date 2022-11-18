@@ -940,8 +940,8 @@ export default {
     dialogo: {
       personajes: [
         {
-          nombre: 'Harry:',
-          img: require('@/assets/curso/tema2/20.svg'),
+          nombre: 'Mary:',
+          img: require('@/assets/curso/tema2/39.svg'),
         },
         {
           nombre: 'Nina:',
@@ -950,7 +950,7 @@ export default {
       ],
       dialogo: [
         {
-          personaje: 'Harry:',
+          personaje: 'Mary:',
           textoIng:
             '<em>Nina, good to see that you still live in the same neighborhood.</em>',
           textoEsp: 'Nina, es bueno ver que aún vives en el mismo barrio.',
@@ -966,7 +966,7 @@ export default {
           palabra: '<em>how</em>',
         },
         {
-          personaje: 'Harry:',
+          personaje: 'Mary:',
           textoIng:
             '<em>*** do you stay when you are not here? Because I usually pass by your house and I don’t always see you here.</em>',
           textoEsp:
@@ -992,8 +992,8 @@ export default {
           img: require('@/assets/curso/tema2/34.svg'),
         },
         {
-          nombre: 'Richard:',
-          img: require('@/assets/curso/tema2/35.svg'),
+          nombre: 'Carla:',
+          img: require('@/assets/curso/tema2/21.svg'),
         },
       ],
       dialogo: [
@@ -1005,7 +1005,7 @@ export default {
           palabra: '<em>when</em>',
         },
         {
-          personaje: 'Richard:',
+          personaje: 'Carla:',
           textoIng:
             '<em>Sorry Helena, I was listening to music *** the phone was ringing.</em>',
           textoEsp:
@@ -1022,7 +1022,7 @@ export default {
           palabra: '<em>that’s why</em>',
         },
         {
-          personaje: 'Richard:',
+          personaje: 'Carla:',
           textoIng:
             '<em>I thought you were working at the office. Please, forgive me!</em>',
           textoEsp:
