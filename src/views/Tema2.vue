@@ -959,7 +959,7 @@ export default {
         {
           personaje: 'Nina:',
           textoIng:
-            '<em>Yes! It is impressive *** many people move from a place to another and you don’t even notice it.</em>',
+            '<em>Yes! It is impressive</em> *** <em>many people move from a place to another and you don’t even notice it.</em>',
           textoEsp:
             '¡Si! Es impresionante cómo muchas personas se mudan de un lugar a otro y uno ni siquiera se da cuenta.',
           audio: require('@/assets/componentes/audios/2-11.mp3'),
@@ -968,7 +968,7 @@ export default {
         {
           personaje: 'Mary:',
           textoIng:
-            '<em>*** do you stay when you are not here? Because I usually pass by your house and I don’t always see you here.</em>',
+            '*** <em>do you stay when you are not here? Because I usually pass by your house and I don’t always see you here.</em>',
           textoEsp:
             '¿Dónde te quedas cuando no estás aquí? Porque yo usualmente paso por tu casa y no siempre te veo aquí.',
           audio: require('@/assets/componentes/audios/2-14.mp3'),
@@ -977,7 +977,7 @@ export default {
         {
           personaje: 'Nina:',
           textoIng:
-            '<em>Well, I have to go to my grandmother’s house in the afternoon *** she is ill and I take care of her.</em>',
+            '<em>Well, I have to go to my grandmother’s house in the afternoon</em> *** <em>she is ill and I take care of her.</em>',
           textoEsp:
             'Bueno, tengo que ir a casa de mi abuela en la tarde, porque ella está enferma y la cuido.',
           audio: require('@/assets/componentes/audios/2-13.mp3'),
@@ -999,7 +999,7 @@ export default {
       dialogo: [
         {
           personaje: 'Helena:',
-          textoIng: '<em>What were you doing *** I called you?</em>',
+          textoIng: '<em>What were you doing</em> *** <em>I called you?</em>',
           textoEsp: '¿Qué estabas haciendo cuando te llamé?',
           audio: require('@/assets/componentes/audios/2-27.mp3'),
           palabra: '<em>when</em>',
@@ -1007,7 +1007,7 @@ export default {
         {
           personaje: 'Carla:',
           textoIng:
-            '<em>Sorry Helena, I was listening to music *** the phone was ringing.</em>',
+            '<em>Sorry Helena, I was listening to music</em> *** <em>the phone was ringing.</em>',
           textoEsp:
             'Lo siento Helena, estaba escuchando música mientras sonaba el teléfono.',
           audio: require('@/assets/componentes/audios/2-28.mp3'),
@@ -1015,7 +1015,8 @@ export default {
         },
         {
           personaje: 'Helena:',
-          textoIng: '<em>I was trying to fix my PC, *** I called you.</em>',
+          textoIng:
+            '<em>I was trying to fix my PC,</em> *** <em>I called you.</em>',
           textoEsp:
             'Estaba intentando arreglar mi ordenador, por eso te he llamado.',
           audio: require('@/assets/componentes/audios/2-29.mp3'),
@@ -1046,7 +1047,7 @@ export default {
         {
           personaje: 'Teacher:',
           textoIng:
-            '<em>Were you checking your phone *** I was talking to you?</em>',
+            '<em>Were you checking your phone</em> *** <em>I was talking to you?</em>',
           textoEsp:
             '¿Estaba revisando su teléfono mientras yo hablaba con usted?',
           audio: require('@/assets/componentes/audios/2-31.mp3'),
@@ -1055,7 +1056,7 @@ export default {
         {
           personaje: 'Student:',
           textoIng:
-            '<em>Of course not, I was just putting my phone in silent mode *** you called my name.</em>',
+            '<em>Of course not, I was just putting my phone in silent mode</em> *** <em>you called my name.</em>',
           textoEsp:
             'Por supuesto que no, solo estaba poniendo mi teléfono en modo de silencio cuando usted me llamó por mi nombre.',
           audio: require('@/assets/componentes/audios/2-32.mp3'),
@@ -1064,7 +1065,7 @@ export default {
         {
           personaje: 'Teacher:',
           textoIng:
-            '<em>I thought you were playing, that’s *** I was in anger with you.</em>',
+            '<em>I thought you were playing, that’s</em> *** <em>I was in anger with you.</em>',
           textoEsp:
             'Pensé que estaba jugando, por eso estaba enojado con usted.',
           audio: require('@/assets/componentes/audios/2-33.mp3'),

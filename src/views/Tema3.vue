@@ -436,21 +436,24 @@ export default {
       dialogo: [
         {
           personaje: 'Victor:',
-          textoIng: '<em>Where *** you use to go on vacation in summer?</em>',
+          textoIng:
+            '<em>Where</em> *** <em>you use to go on vacation in summer?</em>',
           textoEsp: '',
           audio: require('@/assets/componentes/audios/3-11.mp3'),
           palabra: '<em>did</em>',
         },
         {
           personaje: 'Gina:',
-          textoIng: '<em>I *** to travel to Costa Rica, my hometown.</em>',
+          textoIng:
+            '<em>I</em> *** <em>to travel to Costa Rica, my hometown.</em>',
           textoEsp: '',
           audio: require('@/assets/componentes/audios/3-12.mp3'),
           palabra: '<em>used</em>',
         },
         {
           personaje: 'Victor:',
-          textoIng: '<em>Awesome! I *** use to travel when I was younger.</em>',
+          textoIng:
+            '<em>Awesome! I</em> *** <em>use to travel when I was younger.</em>',
           textoEsp: '',
           audio: require('@/assets/componentes/audios/3-13.mp3'),
           palabra: '<em>didn’t</em>',
@@ -478,7 +481,7 @@ export default {
         {
           personaje: 'Eddy:',
           textoIng:
-            '<em>I *** (not/go) out every weekend when I was in college.</em>',
+            '<em>I</em> *** <em>(not/go) out every weekend when I was in college.</em>',
           textoEsp: '',
           audio: require('@/assets/componentes/audios/3-24.mp3'),
           palabra: '<em>wouldn’t go</em>',
@@ -486,7 +489,7 @@ export default {
         {
           personaje: 'Paula:',
           textoIng:
-            '<em>I know you *** (spend) your weekend playing videogames at home.</em>',
+            '<em>I know you</em> *** <em>(spend) your weekend playing videogames at home.</em>',
           textoEsp: '',
           audio: require('@/assets/componentes/audios/3-25.mp3'),
           palabra: '<em>would spend</em>',
@@ -494,7 +497,7 @@ export default {
         {
           personaje: 'Eddy:',
           textoIng:
-            '<em>What *** you do (do) on weekend when you were in college?</em>',
+            '<em>What</em> *** <em>you do (do) on weekend when you were in college?</em>',
           textoEsp: '',
           audio: require('@/assets/componentes/audios/3-26.mp3'),
           palabra: '<em>would</em>',
@@ -502,7 +505,7 @@ export default {
         {
           personaje: 'Paula:',
           textoIng:
-            '<em>I had a boyfriend at college so I *** (spend) the whole weekend with him</em>',
+            '<em>I had a boyfriend at college so I</em> *** <em>(spend) the whole weekend with him</em>',
           textoEsp: '',
           audio: require('@/assets/componentes/audios/3-27.mp3'),
           palabra: '<em>would spend</em>',

@@ -207,7 +207,7 @@ export default {
       dialogo: [
         {
           personaje: 'Gio',
-          textoIng: '<em>What’s *** Tory?</em>',
+          textoIng: '<em>What’s</em> *** <em>Tory?</em>',
           textoEsp: '¿Qué hay, Tory?',
           audio: require('@/assets/componentes/audios/1-12.mp3'),
           palabra: '<em>up</em>',
@@ -222,14 +222,15 @@ export default {
         {
           personaje: 'Gio',
           textoIng:
-            '<em>Really? I am on *** nine! But, tell me, what’s going on?</em>',
+            '<em>Really? I am on</em> *** <em>nine! But, tell me, what’s going on?</em>',
           textoEsp: '¿En serio? ¡Yo estoy súper feliz! Pero, dime, ¿qué pasa?',
           audio: require('@/assets/componentes/audios/1-14.mp3'),
           palabra: '<em>cloud</em>',
         },
         {
           personaje: 'Tory',
-          textoIng: '<em>I can imagine you *** the test, but I failed it.</em>',
+          textoIng:
+            '<em>I can imagine you</em> *** <em>the test, but I failed it.</em>',
           textoEsp: 'Me imagino que tú pasaste el examen, pero yo lo perdí.',
           audio: require('@/assets/componentes/audios/1-15.mp3'),
           palabra: '<em>passed</em>',
