@@ -7,10 +7,10 @@
         span 3
       h1 <em>Habits in the past</em> (Hábitos en el pasado)
     
-    .row.mgb
-      .col-12.col-xl-8(data-aos="fade-left")
+    .row.mb-3.mb-xl-5
+      .col-12.col-lg-8(data-aos="fade-left")
         TraduccionT.color-acento-botones.mb-5(:dialogo="dialogo1")(data-aos="flip-up")
-      .col-12.col-xl-4(data-aos="fade-right")
+      .col-12.col-lg-4(data-aos="fade-right")
         figure.d-flex.justify-content-center
           img.w-auto(src="@/assets/curso/tema3/1.png", alt="alt")
     
@@ -54,20 +54,20 @@
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 3.1 <em>Use of "used to" - narrative</em> (Uso de "<em>used to</em>" - narrativa)
 
-    .row.mgb
-      .col-12.col-xl-5(data-aos="fade-right")
+    .row.mb-xl-5
+      .col-12.col-lg-5.mb-3.mb-lg-0(data-aos="fade-right")
         figure.d-flex.justify-content-center
           img.w-auto(src="@/assets/curso/tema3/3.png", alt="alt")
-      .col-12.col-xl-7(data-aos="fade-left")
+      .col-12.col-lg-7(data-aos="fade-left")
         TraduccionT.color-acento-botones.mb-5(:dialogo="dialogo2")(data-aos="flip-up")
     
     AcordionA.bgr_15.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
-      div(titulo="<em>Affirmative sentence:</em>")
+      div.p-3(titulo="<em>Affirmative sentence:</em>")
         .row.justify-content-center
-          .col-xl-8
+          .col-lg-8.order-2.order-lg-1
             figure.mb-5.d-flex.justify-content-center
               img.w-auto(src="@/assets/curso/tema3/4.svg", alt="alt")
-          .col-xl-auto.mt-4
+          .col-lg-auto.mt-4.order-1.order-lg-2.d-flex.justify-content-center.mb-3.mb-lg-0
             Audio.color-secundario(
               :audio="require('@/assets/componentes/audios/3-2.mp3')"
               @audio-hover="mostrarIndicadorAudio = false"
@@ -77,7 +77,7 @@
         p.text-bold.text-center <em>Examples:</em>
 
         .row.justify-content-center
-          .col-xl-6
+          .col-lg-6
             TarjetaAudio.color-secundario.mb-3(
               texto="<em>My mom used to feel blue when I rode my motorcycle. </em>"
               :audio="require('@/assets/componentes/audios/3-3.mp3')"
@@ -85,7 +85,7 @@
             )
               .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
             p.ms-3 Mi mamá solía sentirse triste cuando yo montaba mi motocicleta.
-          .col-xl-6
+          .col-lg-6
             TarjetaAudio.color-secundario.mb-3(
               texto="<em>Natalia used to be yellow when she was at elementary school.</em>"
               :audio="require('@/assets/componentes/audios/3-4.mp3')"
@@ -93,12 +93,12 @@
             )
               .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
             p.ms-3 Natalia solía ser cobarde cuando estaba en la escuela primaria.
-      div(titulo="<em>Negative sentence:</em>")
+      div.p-3(titulo="<em>Negative sentence:</em>")
         .row.justify-content-center
-          .col-xl-8
+          .col-lg-8.order-2.order-lg-1
             figure.mb-5.d-flex.justify-content-center
               img.w-auto(src="@/assets/curso/tema3/5.svg", alt="alt")
-          .col-xl-auto.mt-4
+          .col-lg-auto.mt-4.order-1.order-lg-2.d-flex.justify-content-center.mb-3.mb-lg-0
             Audio.color-secundario(
               :audio="require('@/assets/componentes/audios/3-5.mp3')"
               @audio-hover="mostrarIndicadorAudio = false"
@@ -108,7 +108,7 @@
         p.text-bold.text-center <em>Examples:</em>
 
         .row.justify-content-center
-          .col-xl-6
+          .col-lg-6
             TarjetaAudio.color-secundario.mb-3(
               texto="<em>My mom didn’t use to feel blue when I rode my motorcycle.</em>"
               :audio="require('@/assets/componentes/audios/3-6.mp3')"
@@ -116,7 +116,7 @@
             )
               .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
             p.ms-3 Mi mamá no solía sentirse triste cuando yo montaba mi motocicleta..
-          .col-xl-6
+          .col-lg-6
             TarjetaAudio.color-secundario.mb-3(
               texto="<em>Natalia didn’t use to be yellow when she was in elementary school.</em>"
               :audio="require('@/assets/componentes/audios/3-7.mp3')"
@@ -124,12 +124,12 @@
             )
               .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
             p.ms-3 Natalia no solía ser cobarde cuando estaba en la escuela primaria.
-      div(titulo="<em>Interrogative sentence:</em>")
+      div.p-3(titulo="<em>Interrogative sentence:</em>")
         .row.justify-content-center
-          .col-xl-8
+          .col-lg-8.order-2.order-lg-1
             figure.mb-5.d-flex.justify-content-center
               img.w-auto(src="@/assets/curso/tema3/6.svg", alt="alt")
-          .col-xl-auto.mt-4
+          .col-lg-auto.mt-4.order-1.order-lg-2.d-flex.justify-content-center.mb-3.mb-lg-0
             Audio.color-secundario(
               :audio="require('@/assets/componentes/audios/3-8.mp3')"
               @audio-hover="mostrarIndicadorAudio = false"
@@ -139,7 +139,7 @@
         p.text-bold.text-center <em>Examples:</em>
 
         .row.justify-content-center
-          .col-xl-6
+          .col-lg-6
             TarjetaAudio.color-secundario.mb-3(
               texto="<em>Did my mom use to feel blue when I rode my motorcycle?  </em>"
               :audio="require('@/assets/componentes/audios/3-9.mp3')"
@@ -147,7 +147,7 @@
             )
               .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
             p.ms-3 ¿Mi mamá solía sentirse triste cuando yo montaba mi motocicleta?
-          .col-xl-6
+          .col-lg-6
             TarjetaAudio.color-secundario.mb-3(
               texto="<em>Did Natalia use to be yellow when she was at elementary school?</em>"
               :audio="require('@/assets/componentes/audios/3-10.mp3')"
@@ -160,34 +160,34 @@
 
     
     .row.mb-5
-      .col-xl-6.bg_grad-08
+      .col-lg-6.bg_grad-08.mb-5.mb-lg-0
         .row.justify-content-center
-          .col-xl-4
+          .col-md-4
               figure.d-flex.justify-content-center
                 img.w-auto(src="@/assets/curso/tema3/7.png", alt="alt")
-          .col-xl-8.d-flex.align-items-center
-            div
-              .row.mb-3 
-                .col-auto 
+          .col-md-8.d-flex.align-items-center
+            div.p-3.p-md-0
+              .row.mb-3.d-flex.justify-content-center 
+                .col-auto.mb-3.mb-md-0  
                   figure.d-flex.justify-content-center
                     img.w-auto(src="@/assets/curso/tema3/9.svg", alt="alt")
-                .col-xl-8
+                .col-md-7.pst_11
                   h4.mb-0.colr_4 <em>Warning #2</em>
                   h4 Advertencia #2
               p.colr_1 <em>We can also write negative sentences in order to talk about those routines that we didn’t have or something that was not part of our daily activities.</em> 
               p.mb-0.text-white También se pueden escribir frases negativas para hablar de aquellas rutinas que no teníamos o de algo que no formaba parte de nuestras actividades diarias.
-      .col-xl-6.bg_grad-08
+      .col-lg-6.bg_grad-08
         .row.justify-content-center
-          .col-xl-4
+          .col-md-4
             figure.d-flex.justify-content-center
               img.w-auto(src="@/assets/curso/tema3/8.png", alt="alt")
-          .col-xl-8.d-flex.align-items-center
-            div
-              .row.mb-3 
-                .col-auto 
+          .col-md-8.d-flex.align-items-center
+            div.p-3.p-md-0
+              .row.mb-3.d-flex.justify-content-center  
+                .col-auto.mb-3.mb-md-0  
                   figure.d-flex.justify-content-center
                     img.w-auto(src="@/assets/curso/tema3/9.svg", alt="alt")
-                .col-xl-8
+                .col-md-7.pst_11
                   h4.mb-0.colr_4 <em>Warning #3</em>
                   h4 Advertencia #3
               p.colr_1 <em>In case you need to know any information about some people’s routines or daily activities, you have to use an interrogative structure.</em> 
@@ -196,7 +196,7 @@
     p.colr <em>Let’s see if you are able to complete the following sentences with “used to” based on the structures seen:</em>
     p.mb-5 Veamos si es capaz de completar las siguientes frases con "<em>used to</em>" a partir de las estructuras vistas:
 
-    Dialogo.color-primario.mb-5.pst_9(:dialogo="dialogo")
+    Dialogo.color-primario.pst_9(:dialogo="dialogo")
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) <em>Complete the following sentences with “used to” based on the structures seen.</em>
       template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.
@@ -206,20 +206,20 @@
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 3.2 <em>Use of “would” for habits</em> (Uso de “<em>would</em>” para hábitos)
 
-    .row.mgb
-      .col-12.col-xl-7(data-aos="fade-left")
+    .row.mb-3.mb-xl-5
+      .col-12.col-lg-7(data-aos="fade-left")
         TraduccionT.color-acento-botones.mb-5(:dialogo="dialogo3")(data-aos="flip-up")
-      .col-12.col-xl-5(data-aos="fade-right")
+      .col-12.col-lg-5(data-aos="fade-right")
         figure.d-flex.justify-content-center
           img.w-auto(src="@/assets/curso/tema3/12.png", alt="alt")
     
     AcordionA.bgr_15.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
       div(titulo="<em>Affirmative sentence:</em>")
         .row.justify-content-center
-          .col-xl-8
+          .col-lg-8.order-2.order-lg-1
             figure.mb-5.d-flex.justify-content-center
               img.w-auto(src="@/assets/curso/tema3/13.svg", alt="alt")
-          .col-xl-auto.mt-4
+          .col-lg-auto.mt-lg-4.order-1.order-lg-2.mb-3.mb-lg-0.d-flex.justify-content-center
             Audio.color-secundario(
               :audio="require('@/assets/componentes/audios/3-15.mp3')"
               @audio-hover="mostrarIndicadorAudio = false"
@@ -229,7 +229,7 @@
         p.text-bold.text-center <em>Examples:</em>
 
         .row.justify-content-center
-          .col-xl-6
+          .col-lg-6
             TarjetaAudio.color-secundario.mb-3(
               texto="<em>Donna would eat pizza every time she was sad.</em>"
               :audio="require('@/assets/componentes/audios/3-16.mp3')"
@@ -237,7 +237,7 @@
             )
               .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
             p.ms-3 Donna comía pizza cada vez que estaba triste.
-          .col-xl-6
+          .col-lg-6
             TarjetaAudio.color-secundario.mb-3(
               texto="<em>Jeff would travel to Europe in the summer when he was rich.</em>"
               :audio="require('@/assets/componentes/audios/3-17.mp3')"
@@ -247,10 +247,10 @@
             p.ms-3 Jeff viajaba a Europa en verano cuando era rico.
       div(titulo="<em>Negative sentence:</em>")
         .row.justify-content-center
-          .col-xl-8
+          .col-lg-8.order-2.order-lg-1
             figure.mb-5.d-flex.justify-content-center
               img.w-auto(src="@/assets/curso/tema3/14.svg", alt="alt")
-          .col-xl-auto.mt-4
+          .col-lg-auto.mt-lg-4.order-1.order-lg-2.mb-3.mb-lg-0.d-flex.justify-content-center
             Audio.color-secundario(
               :audio="require('@/assets/componentes/audios/3-18.mp3')"
               @audio-hover="mostrarIndicadorAudio = false"
@@ -260,7 +260,7 @@
         p.text-bold.text-center <em>Examples:</em>
 
         .row.justify-content-center
-          .col-xl-6
+          .col-lg-6
             TarjetaAudio.color-secundario.mb-3(
               texto="<em>Donna wouldn’t eat pizza every time she was sad.</em>"
               :audio="require('@/assets/componentes/audios/3-19.mp3')"
@@ -268,7 +268,7 @@
             )
               .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
             p.ms-3 Donna no comía pizza cada vez que estaba triste.
-          .col-xl-6
+          .col-lg-6
             TarjetaAudio.color-secundario.mb-3(
               texto="<em>Jeff wouldn’t travel to Europe in the summer when he was rich.</em>"
               :audio="require('@/assets/componentes/audios/3-20.mp3')"
@@ -278,10 +278,10 @@
             p.ms-3 Jeff no viajaba a Europa en verano cuando era rico.
       div(titulo="<em>Interrogative sentence:</em>")
         .row.justify-content-center
-          .col-xl-8
+          .col-lg-8.order-2.order-lg-1
             figure.mb-5.d-flex.justify-content-center
               img.w-auto(src="@/assets/curso/tema3/15.svg", alt="alt")
-          .col-xl-auto.mt-4
+          .col-lg-auto.mt-lg-4.order-1.order-lg-2.mb-3.mb-lg-0.d-flex.justify-content-center
             Audio.color-secundario(
               :audio="require('@/assets/componentes/audios/3-21.mp3')"
               @audio-hover="mostrarIndicadorAudio = false"
@@ -291,7 +291,7 @@
         p.text-bold.text-center <em>Examples:</em>
 
         .row.justify-content-center
-          .col-xl-6
+          .col-lg-6
             TarjetaAudio.color-secundario.mb-3(
               texto="<em>Would Donna eat pizza every time she was sad? </em>"
               :audio="require('@/assets/componentes/audios/3-22.mp3')"
@@ -299,7 +299,7 @@
             )
               .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
             p.ms-3 ¿Donna comía pizza cada vez que estaba triste?
-          .col-xl-6
+          .col-lg-6
             TarjetaAudio.color-secundario.mb-3(
               texto="<em>Would Jeff travel to Europe in the summer when he was rich?</em>"
               :audio="require('@/assets/componentes/audios/3-23.mp3')"
@@ -311,34 +311,34 @@
     p.mb-5 A continuación, se nombran algunas advertencias para identificar el uso correcto del “<em>would</em>”
 
     .row.mb-5
-      .col-xl-6.bg_grad-08
+      .col-lg-6.bg_grad-08.mb-5.mb-lg-0
         .row.justify-content-center
-          .col-xl-4
+          .col-md-4
               figure.d-flex.justify-content-center
                 img.w-auto(src="@/assets/curso/tema3/16.png", alt="alt")
-          .col-xl-8.d-flex.align-items-center
-            div
-              .row.mb-3 
-                .col-auto 
+          .col-md-8.d-flex.align-items-center
+            div.p-3.p-md-0
+              .row.mb-3.d-flex.justify-content-center
+                .col-auto.mb-3.mb-md-0 
                   figure.d-flex.justify-content-center
                     img.w-auto(src="@/assets/curso/tema3/9.svg", alt="alt")
-                .col-xl-8
+                .col-md-7.pst_11
                   h4.mb-0.colr_4 <em>Warning #4</em>
                   h4 Advertencia #4
               p.colr_1 <em>We can also write negative sentences in order to talk about those routines that we didn’t have or something that was not part of our daily activities.</em> 
               p.mb-0.text-white También se pueden escribir frases negativas para hablar de aquellas rutinas que no teníamos o de algo que no formaba parte de nuestras actividades diarias.
-      .col-xl-6.bg_grad-08
+      .col-lg-6.bg_grad-08
         .row.justify-content-center
-          .col-xl-4
+          .col-md-4
             figure.d-flex.justify-content-center
               img.w-auto(src="@/assets/curso/tema3/17.png", alt="alt")
-          .col-xl-8.d-flex.align-items-center
-            div
-              .row.mb-3 
-                .col-auto 
+          .col-md-8.d-flex.align-items-center
+            div.p-3.p-md-0
+              .row.mb-3.d-flex.justify-content-center
+                .col-auto.mb-3.mb-md-0 
                   figure.d-flex.justify-content-center
                     img.w-auto(src="@/assets/curso/tema3/9.svg", alt="alt")
-                .col-xl-8
+                .col-md-7.pst_11
                   h4.mb-0.colr_4 <em>Warning #5</em>
                   h4 Advertencia #5
               p.colr_1 <em>In case you need to know any information about some people’s routines or daily activities, you have to use an interrogative structure.</em> 
@@ -359,19 +359,19 @@
 
     .bg_grad-09
       .row
-        .col-xl-2
+        .col-lg-2
           figure.d-flex.justify-content-center
             img.w-auto(src="@/assets/curso/tema3/20.svg", alt="alt")
-        .col-xl-6
+        .col-lg-6
           TraduccionT.color-acento-botones.bgr_16(:dialogo="dialogo5")(data-aos="flip-up")
-          .row
-            .col-xl-9
-              TarjetaAudio.color-secundario.mb-3(
+          .row.justify-content-center
+            .col-10.col-md-9
+              TarjetaAudio.color-secundario.mb-5.mb-lg-3(
                 :audio="require('@/assets/componentes/audios/3-28.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-        .col-xl-4
+        .col-lg-4
           figure.d-flex.justify-content-center
             img.w-auto(src="@/assets/curso/tema3/21.png", alt="alt")
 

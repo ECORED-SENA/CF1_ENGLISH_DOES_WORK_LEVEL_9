@@ -7,17 +7,17 @@
         span 4
       h1 <em>Sequential linkers - Past time</em> (Conectores secuenciales - Tiempo pasado)
 
-    .row.mgb
-      .col-12.col-xl-8(data-aos="fade-left")
+    .row.mb-3.mb-xl-5
+      .col-12.col-lg-8(data-aos="fade-left")
         TraduccionT.color-acento-botones.mb-5(:dialogo="dialogo1")(data-aos="flip-up")
-      .col-12.col-xl-4(data-aos="fade-right")
+      .col-12.col-lg-4(data-aos="fade-right")
         figure.d-flex.justify-content-center
           img.w-auto(src="@/assets/curso/tema4/1.png", alt="alt")
     
     p.colr <em>Connectors in English are words or phrases with which two or more ideas can get related. There is a great diversity of connectors thanks to the fact that there are many ways to relate them, that is, sentences can be joined to complement each other, contradict each other, raise a cause or a conclusion, among other functions that are explained below.</em>
     p.mb-5 Los conectores en inglés son palabras o frases con los que se pueden relacionar dos o más ideas. Existe una gran diversidad de conectores gracias a que existen muchas formas de relacionarlas, es decir, se pueden unir oraciones para complementarse, contradecirse, plantear una causa o una conclusión, entre otras funciones, que se explican a continuación:
 
-    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
+    SlyderF.mb-5(columnas="col-lg-4")
       .tarjeta.color-acento-contenido.p-4.h-100
         Audio.color-acento-botones.m-auto.mb-3(
           :audio="require('@/assets/componentes/audios/4-1.mp3')"
@@ -151,9 +151,9 @@
     p.mb-5 Veamos si es capaz de completar las siguientes frases con los conectores correctos: 
 
     .bg_grad-10
-      .row.justify-content-center
-        .col-xl-6.d-flex.align-items-center.text-bold
-          div.mt-5
+      .row.justify-content-center.p-4.p-lg-0
+        .col-lg-6.d-flex.align-items-center.text-bold
+          div.mt-xl-5
             span.tool ---- 
               .tool-up.text-center.text-white
                 p.mb-0 <em>First</em> 
@@ -174,13 +174,13 @@
               .tool-up.text-center.text-white
                 p.mb-0 <em>Finally</em> 
             | <em>, I decided to ask for a student’s loan, it will be more expensive, but I won’t waste my time.</em>
-        .col-xl-1.mgt
+        .col-lg-1.mgt
           Audio.color-secundario.m-auto.mb-3(
             :audio="require('@/assets/componentes/audios/4-9.mp3')"
             @audio-hover="mostrarIndicadorAudio = false"
           )
             .indicador--click(v-if="mostrarIndicadorAudio")
-        .col-xl-3
+        .col-lg-3.d-flex.align-items-center
           figure.d-flex.justify-content-center
             img.w-auto(src="@/assets/curso/tema4/11.svg", alt="alt")
 
@@ -220,7 +220,7 @@ export default {
         {
           personaje: 'Teacher',
           textoIng:
-            '***, I entered college, it was the best day of my ***, then I got graduated. I still can’t believe time really flies when you are having fun. However, *** finishing the ceremony I felt empty, like something was missing. That is why I talked to Professor Geller, my favorite teacher. He suggested studying my master’s degree, but ***, I had to make money to pay the fees, it was incredibly expensive. ***, I decided to ask for a student’s loan, it will be more expensive, but I won’t waste my time. ',
+            '***, I entered college, it was the best day of my ***, then I got graduated. I still can’t believe time really flies when you are having fun. However, *** fi  shing the ceremony I felt empty, like something was missing. That is why I talked to Professor Geller, my favorite teacher. He suggested studying my master’s degree, but ***, I had to make money to pay the fees, it was incredibly expensive. ***, I decided to ask for a student’s loan, it will be more expensive, but I won’t waste my time. ',
           textoEsp: '¿Qué hay, Tory?',
           audio: require('@/assets/componentes/audios/4-9.mp3'),
           palabra: 'UP',

@@ -7,10 +7,10 @@
         span 2
       h1 <em>Grammar review</em> (Repaso gramatical)
 
-    .row.mgb
-      .col-12.col-xl-8(data-aos="fade-left")
+    .row
+      .col-12.col-lg-8(data-aos="fade-left")
         TraduccionT.color-acento-botones.mb-5(:dialogo="dialogo1")(data-aos="flip-up")
-      .col-12.col-xl-4(data-aos="fade-right")
+      .col-12.col-lg-4(data-aos="fade-right")
         figure.d-flex.justify-content-center
           img.w-auto(src="@/assets/curso/tema2/1.png", alt="alt")
     
@@ -19,33 +19,32 @@
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.1 <em>Present Simple</em> (Presente simple)
     
-    .row.mgb
-      .col-12.col-xl-4(data-aos="fade-right")
+    .row.mb-lg-5
+      .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="fade-right")
         figure.d-flex.justify-content-center
           img.w-auto(src="@/assets/curso/tema2/2.png", alt="alt")
-      .col-12.col-xl-8(data-aos="fade-left")
+      .col-12.col-lg-8(data-aos="fade-left")
         TraduccionT.color-acento-botones.mb-5(:dialogo="dialogo2")(data-aos="flip-up")
     
     .bg_grad-05
-      .row.mb-5
-        .col-xl-9
+      .row.mb-5.d-flex.align-items-center
+        .col-lg-9.mb-3.mb-lg-0.order-2.order-lg-1(data-aos="fade-left")
           p.colr <em>The simple present tense is conjugated using the basic form of the verb (it is the same as the infinitive, but without the word “to”). It is of great importance to consider that, when a verb is conjugated in the third-person singular, an "s" must be added at the end.</em> 
           p.mgb El tiempo presente simple se conjuga utilizando la forma básica del verbo (viene siendo igual al infinitivo, pero sin la palabra “<em>to</em>”). Resulta de gran importancia considerar que, cuando se conjuga un verbo en la tercera persona del singular, debe añadirse una “s” al final.
           .row
             .col-auto.d-flex.align-items-center
-              figure.d-flex.justify-content-center
+              figure.d-none.d-md-flex.justify-content-center
                 img.w-auto(src="@/assets/curso/tema2/4.svg", alt="alt")
-            .col-xl-10
+            .col-md-9.col-lg-10
               p.colr <em>Now, you are invited to listen to the following BBC Learning English Podcast, where the grammatical concepts and the use of regular and irregular verbs using the simple present will be explained.</em>
               span Ahora, le invitamos a escuchar el 
               span.colr_4 podcast de la BBC <em>Learning English</em>, 
               span donde se explicarán los conceptos gramaticales y el uso de los verbos regulares e irregulares utilizando el presente simple.
-
-        .col-xl-3
+        .col-lg-3.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="fade-right")
           figure.d-flex.justify-content-center
             img.w-auto(src="@/assets/curso/tema2/3.png", alt="alt")
       
-      SlyderF.mgb(columnas="col-lg-6 col-xl-12")
+      SlyderF.mgb(columnas="col-lg-6 col-xl-12")(data-aos="zoom-in")
         div
           figure.d-flex.justify-content-center
             img.w-auto(src="@/assets/curso/tema2/5.png", alt="alt")
@@ -110,7 +109,7 @@
       span Persona gramatical con el verbo “<em>to work</em>”
 
     .row.mb-3
-      .col-12.col-xl-9.position-relative
+      .col-12.col-xl-9.position-relative(data-aos="fade-right")
         figure
           img(src="@/assets/curso/tema2/10.svg", alt="alt")
         Audio.color-secundario.mx-3.pst_7(
@@ -180,9 +179,10 @@
                 td.colr.text-bold <em>work</em>
                 td.colr <b><em>They work.</em></b> 
                   span.colr_3 / Ellos(as) trabajan.
-      .col-xl-3
-        figure.d-flex.justify-content-center
+      .col-xl-3(data-aos="fade-left")
+        figure.d-none.d-xl-flex.justify-content-center
           img.w-auto(src="@/assets/curso/tema2/11.svg", alt="alt")
+        
     
     p.mb-0.colr <em>Let's see how a verb interacts with the rest of the words in the sentences using the present simple in affirmative, negative, and interrogative sentences.</em>
     p.colr In the following resource, you can see each grammatical structure.
@@ -190,10 +190,10 @@
     p.mb-0 Veamos cómo un verbo interactúa con el resto de las palabras en las oraciones utilizando el presente simple en oraciones afirmativas, negativas e interrogativas.
     p.mb-5 En el siguiente recurso, se puede apreciar cada estructura gramatical.
 
-    .row.mb-5
-      .col-xl-8
+    .row.mb-3
+      .col-xl-8(data-aos="fade-left")
         TabsB.color-acento-contenido.bgr_6.mb-5
-          .py-4.py-md-5.bgr_5(titulo="<em>Affirmative</em>" :icono="require('@/assets/componentes/ej-04.svg')")
+          .py-4.py-md-5.bgr_5.p-3(titulo="<em>Affirmative</em>" :icono="require('@/assets/componentes/ej-04.svg')")
             .text-center
               h4.mb-0.colr <em>Affirmative form of the simple present tense.</em> 
               span / Forma afirmativa del tiempo presente simple.
@@ -201,7 +201,7 @@
             figure.d-flex.justify-content-center.mb-3
               img.w-auto(src="@/assets/curso/tema2/14.svg", alt="alt")
             .row.justify-content-center
-              .col-xl-8
+              .col-md-10.col-lg-8
                 TarjetaAudio.color-secundario.mb-3(
                   texto="Charles enjoys romantic music."
                   :audio="require('@/assets/componentes/audios/2-7.mp3')"
@@ -209,7 +209,7 @@
                 )
                   .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
                 p.ms-3 Carlos disfruta la música romántica.
-          .py-4.py-md-5.bgr_5(titulo="<em>Negative</em>" :icono="require('@/assets/componentes/ej-04.svg')")
+          .py-4.py-md-5.bgr_5.p-3(titulo="<em>Negative</em>" :icono="require('@/assets/componentes/ej-04.svg')")
             .text-center
               h4.mb-0.colr <em>Negative form of the simple present tense</em> 
               span / Forma negativa del tiempo presente simple.
@@ -217,7 +217,7 @@
             figure.d-flex.justify-content-center.mb-3
               img.w-auto(src="@/assets/curso/tema2/15.svg", alt="alt")
             .row.justify-content-center
-              .col-xl-8
+              .col-md-10.col-lg-8
                 TarjetaAudio.color-secundario.mb-3(
                   texto="Charles doesn't enjoy romantic music."
                   :audio="require('@/assets/componentes/audios/2-8.mp3')"
@@ -225,7 +225,7 @@
                 )
                   .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
                 p.ms-3 Charles no disfruta la música romántica.
-          .py-4.py-md-5.bgr_5(titulo="<em>Interrogative</em>" :icono="require('@/assets/componentes/ej-04.svg')")
+          .py-4.py-md-5.bgr_5.p-3(titulo="<em>Interrogative</em>" :icono="require('@/assets/componentes/ej-04.svg')")
             .text-center
               h4.mb-0.colr <em>Interrogative form of the simple present tense.</em> 
               span / Forma interrogativa del tiempo presente simple.
@@ -233,7 +233,7 @@
             figure.d-flex.justify-content-center.mb-3
               img.w-auto(src="@/assets/curso/tema2/16.svg", alt="alt")
             .row.justify-content-center
-              .col-xl-8
+              .col-md-10.col-lg-8
                 TarjetaAudio.color-secundario.mb-3(
                   texto="Does Charles enjoy romantic music? "
                   :audio="require('@/assets/componentes/audios/2-9.mp3')"
@@ -241,8 +241,8 @@
                 )
                   .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
                 p.ms-3 ¿A Charles le gusta la música romántica?
-      .col-xl-4
-        figure.d-flex.justify-content-center
+      .col-xl-4(data-aos="fade-right")
+        figure.d-none.d-xl-flex.justify-content-center
           img.w-auto(src="@/assets/curso/tema2/12.svg", alt="alt")
     
     p.colr <em>In the following table, we will introduce some rules to keep in mind with some regular and irregular verbs.</em>
@@ -253,7 +253,7 @@
       span Reglas verbos regulares e irregulares
 
     .row.mb-3
-      .col-12.col-xl-7.position-relative
+      .col-12.col-xl-7.position-relative(data-aos="fade-right")
         figure
           img(src="@/assets/curso/tema2/17.svg", alt="alt")
         .tabla-a.color-acento-botones.mb-5 
@@ -317,15 +317,15 @@
                     span.colr_4.text-bold <em>does</em>
                   p.mb-0 <em>have - </em>
                     span.colr_4.text-bold <em>has</em>
-      .col-xl-5
-        figure.d-flex.justify-content-center
+      .col-xl-5(data-aos="fade-left")
+        figure.d-none.d-xl-flex.justify-content-center
           img.w-auto(src="@/assets/curso/tema2/18.svg", alt="alt")
     
     p.colr <em>“I just realized how little I do on weekends. In general, I just relax, read a little, watch some movies...” Based on this statement, we invite you to listen to the following more complex dialogue elaborated with the grammatical structures of the present simple:</em>
     p.mb-5 “Me acabo de dar cuenta de lo poco que hago los fines de semana. Por lo general, solo me relajo, leo un poco, veo algunas películas...” Con base en este enunciado, lo invitamos a escuchar el siguiente diálogo, más complejo y elaborado con las estructuras gramaticales del presente simple:
 
     .bg_grad-04
-      .row.justify-content-center.mgb
+      .row.justify-content-center.mgb(data-aos="zoom-in")
         .col-xl-10
           figure.d-flex.justify-content-center
             img.w-auto(src="@/assets/curso/tema2/19.svg", alt="alt")
@@ -343,13 +343,13 @@
             span.text-bold <em>Danna: </em> 
             span.colr <em>For sure! We love going to towns and trying new food.</em>
             .row.mt-3.justify-content-between
-              .col-12.col-lg-9
+              .col-12.col-lg-9.mb-3.mb-lg-0
                 TarjetaAudio.color-secundario(
                   :audio="require('@/assets/componentes/audios/2-10.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
                   .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-              .col-12.col-lg-auto
+              .col-12.col-lg-auto.d-flex.justify-content-center
                 a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
                   span Ver traducción 
                   i.fas.fa-language
@@ -376,16 +376,16 @@
      span.colr_4.text-bold “<em>because</em>”, 
      | que se emplea para conectar el efecto y la causa que pueden representar una razón o explicación. Complete el siguiente diálogo.
     
-    Dialogo.color-primario.mb-5(:dialogo="dialogo")
+    Dialogo.color-primario.mb-5(:dialogo="dialogo")(data-aos="zoom-out")
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) <em>Wh questions and the word “because”</em>
       template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.
     
-    .row.mb-5.bgr_9.tarjeta.p-4.justify-content-center
-      .col-xl-auto
+    .row.bgr_9.tarjeta.p-4.d-flex.align-items-center.justify-content-center
+      .col-lg-auto.mb-3.mb-lg-0
         figure.d-flex.justify-content-center
           img.w-auto(src="@/assets/curso/tema2/22.svg", alt="alt")
-      .col-xl-8
+      .col-lg-8
         p.colr <em>As seen in the examples, more complex interactions can be achieved by using linkers to introduce more useful information to the sentence, and it is not even necessary to use a different grammar tense.</em>
         p.mb-0 Como se vio en los ejemplos, las interacciones más complejas se pueden lograr a través del uso de los conectores para introducir más información útil en la oración y ni siquiera es necesario usar un tiempo gramatical diferente
     
@@ -395,21 +395,21 @@
       h2 2.2 <em>Past Simple </em> (Pasado simple)
 
     .row.mgb
-      .col-12.col-xl-7(data-aos="fade-left")
+      .col-12.col-lg-7.order-2.order-lg-1(data-aos="fade-left")
         TraduccionT.color-acento-botones.mb-5(:dialogo="dialogo3")(data-aos="flip-up")
-      .col-12.col-xl-5(data-aos="fade-right")
+      .col-12.col-lg-5.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="fade-right")
         figure.d-flex.justify-content-center
           img.w-auto(src="@/assets/curso/tema2/23.png", alt="alt")
     
     .bg_grad-06
-      SlyderF.mgb.bgr_1.tarjeta.p-4(columnas="col-lg-6 col-xl-12")
-        div
+      SlyderF.mgb.bgr_1.tarjeta.p-4(columnas="col-lg-12")
+        div.p-3
           TraduccionT.color-acento-botones.mb-5.pst_10(:dialogo="dialogo4")(data-aos="flip-up")
-          .row.mb-3.justify-content-center
-            .col-xl-10
+          .row.justify-content-center
+            .col-lg-10.order-2.order-lg-1
               figure.mb-5.d-flex.justify-content-center
                 img.w-auto(src="@/assets/curso/tema2/24.svg", alt="alt")
-            .col-xl-auto.mt-5
+            .col-lg-auto.order-1.order-lg-2.mb-3.mb-lg-0.d-flex.justify-content-center
               Audio.color-secundario(
                 :audio="require('@/assets/componentes/audios/2-15.mp3')"
                 @audio-hover="mostrarIndicadorAudio = false"
@@ -417,27 +417,27 @@
                 .indicador--click(v-if="mostrarIndicadorAudio")
 
           .row.justify-content-center
-            .col-xl-4
+            .col-lg-4.mb-3.mb-lg-0
               TarjetaAudio.color-secundario(
                 texto="<em>Susy brought a sandwich.</em>"
                 :audio="require('@/assets/componentes/audios/2-16.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-            .col-xl-4
+            .col-lg-4
               TarjetaAudio.color-secundario(
                 texto="<em>Peter played chess with her.</em>"
                 :audio="require('@/assets/componentes/audios/2-17.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-        div
+        div.p-3
           TraduccionT.color-acento-botones.mb-5.pst_10(:dialogo="dialogo5")(data-aos="flip-up")
-          .row.mb-3.justify-content-center
-            .col-xl-10
+          .row.justify-content-center
+            .col-lg-10.order-2.order-lg-1
               figure.mb-5.d-flex.justify-content-center
                 img.w-auto(src="@/assets/curso/tema2/25.svg", alt="alt")
-            .col-xl-auto.mt-3
+            .col-lg-auto.mt-3.order-1.order-lg-2.mb-3.mb-lg-0.d-flex.justify-content-center
               Audio.color-secundario(
                 :audio="require('@/assets/componentes/audios/2-18.mp3')"
                 @audio-hover="mostrarIndicadorAudio = false"
@@ -445,27 +445,27 @@
                 .indicador--click(v-if="mostrarIndicadorAudio")
 
           .row.justify-content-center
-            .col-xl-5
+            .col-lg-5.mb-3.mb-lg-0
               TarjetaAudio.color-secundario(
                 texto="<em>Susy didn’t bring a sandwich.</em>"
                 :audio="require('@/assets/componentes/audios/2-19.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-            .col-xl-5
+            .col-lg-5
               TarjetaAudio.color-secundario(
                 texto="<em>Peter didn’t play chess with her.</em>"
                 :audio="require('@/assets/componentes/audios/2-20.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-        div
+        div.p-3
           TraduccionT.color-acento-botones.mb-5.pst_10(:dialogo="dialogo6")(data-aos="flip-up")
-          .row.mb-3.justify-content-center
-            .col-xl-10
+          .row.justify-content-center
+            .col-lg-10.order-2.order-lg-1
               figure.mb-5.d-flex.justify-content-center
                 img.w-auto(src="@/assets/curso/tema2/26.svg", alt="alt")
-            .col-xl-auto.mt-3
+            .col-lg-auto.mt-3.order-1.order-lg-2.mb-3.mb-lg-0.d-flex.justify-content-center
               Audio.color-secundario(
                 :audio="require('@/assets/componentes/audios/2-21.mp3')"
                 @audio-hover="mostrarIndicadorAudio = false"
@@ -473,14 +473,14 @@
                 .indicador--click(v-if="mostrarIndicadorAudio")
 
           .row.justify-content-center
-            .col-xl-5
+            .col-lg-5.mb-3.mb-lg-0
               TarjetaAudio.color-secundario(
                 texto="<em>Did Susy bring a sandwich?</em>"
                 :audio="require('@/assets/componentes/audios/2-22.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-            .col-xl-5
+            .col-lg-5
               TarjetaAudio.color-secundario(
                 texto="<em>Did Peter play chess with her?</em>"
                 :audio="require('@/assets/componentes/audios/2-23.mp3')"
@@ -491,11 +491,11 @@
     p.colr <em>To write affirmative sentences in the simple past, you must write the verb in the past, but there are two types of verbs: regular and irregular. Irregular verbs are found in a list of conjugated verbs in their base form; however, regular verbs have to follow some rules to make them past tense.</em>
     p.mb-5 Para escribir oraciones afirmativas en pasado simple, se debe escribir el verbo en pasado, pero hay dos tipos de verbos: los regulares y los irregulares. Los verbos irregulares se encuentran en una lista de verbos conjugados en su forma base; sin embargo, los verbos regulares tienen que seguir unas reglas para convertirlos en pasado.
 
-    .row.mb-5
-      .col-xl-2
-        figure.mb-5.d-flex.justify-content-center
+    .row.mb-5.d-flex.align-items-center
+      .col-lg-2
+        figure.mb-5.d-none.d-lg-flex.justify-content-center
           img.w-auto(src="@/assets/curso/tema2/27.svg", alt="alt")
-      .col-xl-10
+      .col-lg-10
         p.colr <em>To <b>write in English</b> correctly, it is essential to master irregular verbs, which are the ones that break the regular rule. Irregular verbs are those that don’t follow the conjugation rules of regular verbs. That is, unlike regular verbs, irregular verbs don’t have the ending <b>-ed</b> or <b>-d</b> when conjugated in the past simple. Here are two lists of  verbs with some examples:</em>
         p.mb-5 Para <b>escribir en inglés</b> correctamente, es fundamental dominar los verbos irregulares, que son los que rompen la regla de los regulares. Los verbos irregulares son aquellos que no cumplen con las reglas de conjugación de los verbos regulares. Es decir, a diferencia de los regulares, los verbos irregulares no llevan la terminación 
           span.colr_4.text-bold -ed  
@@ -504,7 +504,7 @@
           | al conjugarlos en pasado simple. A continuación, se presentan dos listas de verbos con algunos ejemplos:
     
     .row.mb-5
-      .col-xl-6
+      .col-lg-6.mb-3.mb-lg-0(data-aos="flip-up")
           .tabla-b__header.bgr_11
             h4.mb-0 <em>Regular verbs</em>
             p <em>Regular verbs have rules that you have to follow:</em>
@@ -559,7 +559,7 @@
                 p.mb-0.colr <em>Example:</em>
                 p.mb-0.colr <em>Stop → Stopped</em>
                 p.mb-5.colr <em>Control → Controlled</em>
-      .col-xl-6
+      .col-lg-6(data-aos="flip-down")
         .color-secundario.mb-5
           .tabla-b__header.bgr_12
             h4.mb-0 <em>Irregular verbs</em>
@@ -660,7 +660,7 @@
                   img.w-auto(src="@/assets/curso/tema2/28.png", alt="alt")
     
     .row.mb-5.justify-content-center
-      .col-xl-6
+      .col-md-10.col-lg-6
         a.anexo.mb-4.mb-lg-0.m-auto(:href="obtenerLink('downloads/List-Irregular-Verbs.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
@@ -671,7 +671,7 @@
     p.mb-5 Ahora que los fundamentos están establecidos, es posible empezar a construir frases complejas, utilizando conectores como "when" o "because”, que nos permiten conectar apropiadamente nuestras ideas y oraciones, y pueden cambiar todo un discurso y demostrar una estructura, argumento y fluidez.  Veamos un ejemplo:  
 
     .bg_grad-04
-      .row.justify-content-center.mgb
+      .row.justify-content-center.mgb(data-aos="zoom-in")
         .col-xl-10
           figure.d-flex.justify-content-center
             img.w-auto(src="@/assets/curso/tema2/29.svg", alt="alt")
@@ -689,13 +689,13 @@
             span.text-bold <em>Frank: </em> 
             span.colr <em>Yes, Zury, you exposed me! But I wasn’t angry because I knew you didn’t do it on purpose.</em>
             .row.mt-3.justify-content-between
-              .col-12.col-lg-9
+              .col-12.col-lg-9.mb-3.mb-lg-0
                 TarjetaAudio.color-secundario(
                   :audio="require('@/assets/componentes/audios/2-26.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
                   .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-              .col-12.col-lg-auto
+              .col-12.col-lg-auto.d-flex.justify-content-center
                 a.boton.color-acento-botones.indicador__container(@click="modal2 = true")
                   span Ver traducción 
                   i.fas.fa-language
@@ -720,10 +720,10 @@
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.3 <em>Past Continuous</em> (Pasado continuo) 
 
-    .row.mgb
-      .col-12.col-xl-7(data-aos="fade-left")
+    .row.mb-xl-5
+      .col-12.col-lg-7.order-2.order-lg-1(data-aos="fade-left")
         TraduccionT.color-acento-botones.mb-5(:dialogo="dialogo7")(data-aos="flip-up")
-      .col-12.col-xl-5(data-aos="fade-right")
+      .col-12.col-lg-5.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="fade-right")
         figure.d-flex.justify-content-center
           img.w-auto(src="@/assets/curso/tema2/30.png", alt="alt")
     
@@ -737,7 +737,7 @@
     h4.mb-5 <em>ING form rules</em>
 
     .row.mb-5
-      .col-xl-3.p-4.bgr_11
+      .col-md-6.col-xl-3.p-4.bgr_11.mb-3.mb-xl-0
         Audio.color-acento-botones.m-auto.mb-3(
           :audio="require('@/assets/componentes/audios/2-35.mp3')"
           @audio-hover="mostrarIndicadorAudio = false"
@@ -751,7 +751,7 @@
             span.colr_4.text-bold <em>ing</em>
           p.mb-0 <em>Buy → Buy</em>
             span.colr_4.text-bold <em>ing</em>
-      .col-xl-3.p-4.bgr_14
+      .col-md-6.col-xl-3.p-4.bgr_14.mb-3.mb-xl-0
         Audio.color-acento-botones.m-auto.mb-3(
           :audio="require('@/assets/componentes/audios/2-36.mp3')"
           @audio-hover="mostrarIndicadorAudio = false"
@@ -765,7 +765,7 @@
             span.colr_4.text-bold <em>ing</em>
           p.mb-0 <em>Hide → Hid</em>
             span.colr_4.text-bold <em>ing</em>
-      .col-xl-3.p-4.bgr_11
+      .col-md-6.col-xl-3.p-4.bgr_11.mb-3.mb-xl-0
         Audio.color-acento-botones.m-auto.mb-3(
           :audio="require('@/assets/componentes/audios/2-37.mp3')"
           @audio-hover="mostrarIndicadorAudio = false"
@@ -779,7 +779,7 @@
             span.colr_4.text-bold <em>ying</em>
           p.mb-0 <em>Tie → T</em>
             span.colr_4.text-bold <em>ying</em>
-      .col-xl-3.p-4.bgr_14
+      .col-md-6.col-xl-3.p-4.bgr_14.mb-3.mb-xl-0
         Audio.color-acento-botones.m-auto.mb-3(
           :audio="require('@/assets/componentes/audios/2-38.mp3')"
           @audio-hover="mostrarIndicadorAudio = false"
@@ -799,25 +799,25 @@
     
     .bg_grad-07
       .row.mb-5.justify-content-center
-        .col-xl-3
+        .col-md-3.mb-3.mb-md-0
           figure.d-flex.justify-content-center
             img.w-auto(src="@/assets/curso/tema2/31.png", alt="alt")
-        .col-xl-5.d-flex.align-items-center
-          div
-            .row.mb-3 
-              .col-auto 
+        .col-md-5.d-flex.align-items-center
+          div.p-3.p-md-0
+            .row.mb-3.d-flex.justify-content-center
+              .col-auto.mb-3.mb-md-0  
                 figure.d-flex.justify-content-center
                   img.w-auto(src="@/assets/curso/tema2/32.svg", alt="alt")
-              .col-xl-8
+              .col-md-7.pst_11
                 h4.mb-0.colr_4 <em>Warning #1</em>
                 h4 Advertencia #1
             p.mb-0.colr_1 <em>If any verb is misspelled, the whole sentence will be wrong.</em> 
             p.text-white Si algún verbo se escribe mal, toda la oración estará mal.
     
-    .row.mgb
-      .col-12.col-xl-7(data-aos="fade-left")
+    .row.mb-xl-5
+      .col-12.col-lg-7.order-2.order-lg-1(data-aos="fade-left")
         TraduccionT.color-acento-botones.mb-5(:dialogo="dialogo8")(data-aos="flip-up")
-      .col-12.col-xl-5(data-aos="fade-right")
+      .col-12.col-lg-5.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="fade-right")
         figure.d-flex.justify-content-center
           img.w-auto(src="@/assets/curso/tema2/33.png", alt="alt")
     
@@ -839,11 +839,11 @@
       template(#titulo-actividad) Diálogo A de práctica
       template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.
 
-    .row.mgb
-      .col-12.col-xl-5(data-aos="fade-right")
+    .row.mb-xl-5
+      .col-12.col-lg-5.mb-3.mb-lg-0(data-aos="fade-right")
         figure.d-flex.justify-content-center
           img.w-auto(src="@/assets/curso/tema2/36.png", alt="alt")
-      .col-12.col-xl-7(data-aos="fade-left")
+      .col-12.col-lg-7(data-aos="fade-left")
         TraduccionT.color-acento-botones.mb-5(:dialogo="dialogo10")(data-aos="flip-up")
 
     Dialogo.color-primario.mb-5(:dialogo="dialogo11")

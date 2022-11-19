@@ -4,10 +4,10 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
     .row.mb-5.bgr.p-5
-      .col-xl-4
-        figure
-          img(src="@/assets/curso/sintesis/img1.png", alt="alt")
-      .col-xl-8
+      .col-lg-4.mb-3.mb-lg-0
+        figure.d-flex.justify-content-center
+          img.w-auto(src="@/assets/curso/sintesis/img1.png", alt="alt")
+      .col-lg-8
         p.mb-5 <em>Up to this point, we have been able to appreciate everything that has to do with Present Simple, Simple Past and Past Continuous tenses, the use of “used to” and “would” to talk about past habits, and the sequential past linkers, that is why we invite you to consider the following conceptual scheme that summarizes the subject treated:</em>
         p.colr_2 Hasta este punto, se ha podido apreciar todo lo que tiene que ver con el tiempo presente simple, el pasado simple y el pasado continuo, el uso de "<em>used to</em>" y "<em>would</em>" para hablar de hábitos pasados, y los conectores de pasado secuencial, por lo que le invitamos a considerar el siguiente esquema conceptual que resume el tema tratado: 
 

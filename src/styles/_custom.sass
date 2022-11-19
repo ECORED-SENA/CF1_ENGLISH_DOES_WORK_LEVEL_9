@@ -65,15 +65,13 @@
   background-size: 50%, 25%
   animation: Flitp1 6s ease infinite
   margin-top: 30px
-  @media screen and (max-width: 992px)
-    background-position: 50% 13%, 50% 95%
-    padding-top: 6rem !important
+  @media screen and (max-width: $bp-max-lg)
     width: 560px
-  @media screen and (max-width: 420px)
+  @media screen and (max-width: $bp-max-md)
+    width: 100%
+  @media screen and (max-width: $bp-max-xs)
     background-image: none
-    animation: none
-    padding-left: 1.5rem !important
-    padding-top: 1.5rem !important   
+    padding-top: 2rem !important   
    
 @keyframes Flitp1
   0%
@@ -288,6 +286,13 @@
     background-size: cover
     border-bottom-left-radius: 20px
     border-bottom-right-radius: 20px
+    @media ( max-width: $bp-max-lg )
+      top: 20%
+      height: 84%
+    @media ( max-width: $bp-max-md )
+      top: 12%
+      height: 90%
+      
 .bg_grad-06
   position: relative
   .tarjeta, .row, .slyder-f
@@ -316,6 +321,14 @@
     width: 50%
     height: 38%
     background-color: #3C3FA7
+    @media ( max-width: $bp-max-lg )
+      top: 26%
+      height: 68%
+    @media ( max-width: $bp-max-xs )
+      top: 30%
+      height: 72%
+      width: 100%
+      left: 0
 .bg_grad-08
   position: relative
   .row
@@ -330,6 +343,14 @@
     height: 85%
     background-color: #3C3FA7
     border-radius: 20px
+    @media ( max-width: $bp-max-lg )
+      top: 16%
+      height: 90%
+    @media ( max-width: $bp-max-xs )
+      top: 20%
+      height: 80%
+      width: 100%
+      left: 0
 .bg_grad-09
   position: relative
   .row
@@ -344,6 +365,13 @@
     height: 85%
     background-color: #FFBFC1
     border-radius: 20px
+    @media ( max-width: $bp-max-md )
+      top: 16%
+      left: 0
+      width: 100%
+      height: 51%
+    @media ( max-width: $bp-max-xs )
+      height: 55%
 .bg_grad-10
   position: relative
   .tarjeta, .row
@@ -359,12 +387,21 @@
     background-image: url("../assets/curso/tema4/fondo1.svg")
     background-repeat: no-repeat
     background-size: cover
+    @media ( max-width: $bp-max-lg )
+      top: -10%
+      height: calc(100% + 3rem)
+    @media ( max-width: $bp-max-lg )
+      top: 0
+      height: 100%
 //POSICION PANTALLA//
 .pst
   position: absolute
   bottom: 2%
   left: 0%
   width: 83px
+  @media ( max-width: $bp-max-md )
+    bottom: -8%
+    
   &_1
     position: absolute !important
     width: 40px
@@ -375,6 +412,10 @@
     width: 40px
     top: -20px
     left: 52px
+    @media ( max-width: $bp-max-lg )
+      left: 31px
+    @media ( max-width: $bp-max-md )
+      left: 51px
   &_3
     position: absolute !important
     width: 40px
@@ -385,21 +426,46 @@
     width: 40px
     top: -20px
     left: 48px
+    @media ( max-width: $bp-max-lg )
+      left: 31px
+    @media ( max-width: $bp-max-md )
+      left: 51px
+    @media ( max-width: $bp-max-xs )
+      left: 45px
   &_5
     position: absolute !important
     width: 40px
     top: -20px
     left: 58px
+    @media ( max-width: $bp-max-lg )
+      left: 31px
+    @media ( max-width: $bp-max-md )
+      left: 61px
+    @media ( max-width: $bp-max-xs )
+      left: 81px
   &_6
     position: absolute !important
     width: 40px
     top: -20px
     left: 42px
+    @media ( max-width: $bp-max-lg )
+      left: 31px
+    @media ( max-width: $bp-max-md )
+      left: 41px
   &_7
     position: absolute !important
     top: 66px
     right: 57px
     width: 50px
+    @media ( max-width: $bp-max-lg )
+      top: 62px
+      right: 52px
+    @media ( max-width: $bp-max-md )
+      top: 41px
+      right: 30px
+    @media ( max-width: $bp-max-md )
+      top: 19px
+      right: 5px
   &_8
     height: 87%
   &_9
@@ -408,12 +474,17 @@
   &_10
     .traduccionAudio__chat__item__message__translate-btn
       display: none
+  &_11
+    @media ( max-width: $bp-max-xs )
+      text-align: center
+      
 //MARGIN//
 .mgb
   margin-bottom: 70px
 .mgt
   margin-top: 120px
-  
+  @media ( max-width: $bp-max-md )
+    margin-top: 1rem
 //CLASES REEMPLAZADAS//
 .traduccionAudio__chat__item__message__bubble
   background-color: #DDDEFF !important

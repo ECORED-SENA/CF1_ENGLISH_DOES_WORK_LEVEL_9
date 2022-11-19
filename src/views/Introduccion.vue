@@ -11,15 +11,15 @@
     
     .bg_grad-01
       .row.mb-5.p-2.p-lg-4.mb-5
-        .col-12.col-xl-8.d-flex.align-items-center.position-relative(data-aos="fade-right")
+        .col-12.col-xl-8.order-2.order-lg-1.d-flex.align-items-center.position-relative(data-aos="fade-right")
           .tarjeta.bgr.p-5
             p.mb-0 Las formas de hablar de eventos del pasado, presente o futuro varían según el nivel de conocimiento de vocabulario y estructuras gramaticales que el locutor posea para presentar las ideas que desea exponer. Por tal motivo, se hace imperativa la necesidad de elevar el nivel de las estructuras y el vocabulario usado al momento de expresar las ideas; incluso si ellas son estructuras de gramática básica, hay elementos que se pueden incluir con el fin de elevar el nivel de la conversación. Para lograr tal fin, durante este componente, se hará un repaso de elementos gramaticales básicos, como el <b>presente simple, pasado simple y pasado continuo</b>, y se enfocará hacia la creación de oraciones complejas. Además, se trabajará el “<b><em>used to</em></b>” y el “<b><em>would</em></b>” como elementos para complementar el pasado al contar no solo hechos, sino rutinas que se tenían. Partiendo de lo anterior, le damos la bienvenida al estudio de este componente formativo y, para comenzar, se le invita a explorar el video que se presenta a continuación:
           img.pst(src="@/assets/curso/introduccion/img2.svg", alt="alt")
-        .col-12.col-xl-4(data-aos="fade-left")
+        .col-12.col-xl-4.order-1.order-lg-2.mb3.mb-lg-0(data-aos="fade-left")
           figure.d-flex.justify-content-center
             img.w-auto(src="@/assets/curso/introduccion/img1.png", alt="alt")
    
-      figure.mb-5
+      figure.mb-5(data-aos="zoom-in")
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/00m2y5NfnPg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     

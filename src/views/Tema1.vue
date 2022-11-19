@@ -8,19 +8,19 @@
       h1 <em>My life used to be blue</em> (Mi vida solía ser triste)
     
     .row.mgb
-      .col-12.col-xl-8(data-aos="fade-left")
+      .col-12.col-lg-8.order-2.order-lg-1(data-aos="fade-left")
         TraduccionT.color-acento-botones.mb-5(:dialogo="dialogo1")(data-aos="flip-up")
-      .col-12.col-xl-4(data-aos="fade-right")
+      .col-12.col-lg-4.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="fade-right")
         figure.d-flex.justify-content-center
           img.w-auto(src="@/assets/curso/tema1/1.png", alt="alt")
     
     .bg_grad-03
-      .tarjeta.bgr_1.p-4.mgb
+      .tarjeta.bgr_1.p-4.mgb(data-aos="zoom-in")
         h4.text-center.colr <em>Vocabulary</em> / Vocabulario 
         p.mb-0.text-center.colr <em>Expressions that can be used in English to have a more complex conversation.</em>
         p.mb-5.text-center Expresiones que se pueden usar en inglés para tener una conversación más compleja.
         .row.justify-content-center.mb-3
-          .col-xl-2
+          .col-8.col-md-4.col-lg-2.mb-3.mb-lg-0
             .tarjeta.p-2.d-flex.align-items-end.justify-content-center(:style="{'background-image': `url(${require('@/assets/curso/tema1/2.png')})`}" style='height: 311px')
               .tarjeta.bgr_1.p-4.positio-relative
                 p.mb-0.text-center.text-bold <em>Feel blue</em>
@@ -29,7 +29,7 @@
                   @audio-hover="mostrarIndicadorAudio = false"
                 )
                   .indicador--click(v-if="mostrarIndicadorAudio")
-          .col-xl-2
+          .col-8.col-md-4.col-lg-2.mb-3.mb-lg-0
             .tarjeta.p-2.d-flex.align-items-end.justify-content-center(:style="{'background-image': `url(${require('@/assets/curso/tema1/3.png')})`}" style='height: 311px')
               .tarjeta.bgr_1.px-3.py-4.positio-relative
                 p.mb-0.text-center.text-bold <em>Green with envy</em>
@@ -38,7 +38,7 @@
                   @audio-hover="mostrarIndicadorAudio = false"
                 )
                   .indicador--click(v-if="mostrarIndicadorAudio")
-          .col-xl-2
+          .col-8.col-md-4.col-lg-2.mb-3.mb-lg-0
             .tarjeta.p-2.d-flex.align-items-end.justify-content-center(:style="{'background-image': `url(${require('@/assets/curso/tema1/4.png')})`}" style='height: 311px')
               .tarjeta.bgr_1.p-4.positio-relative
                 p.mb-0.text-center.text-bold <em>Fed up</em>
@@ -47,7 +47,7 @@
                   @audio-hover="mostrarIndicadorAudio = false"
                 )
                   .indicador--click(v-if="mostrarIndicadorAudio")
-          .col-xl-2
+          .col-8.col-md-4.col-lg-2.mb-3.mb-lg-0
             .tarjeta.p-2.d-flex.align-items-end.justify-content-center(:style="{'background-image': `url(${require('@/assets/curso/tema1/5.png')})`}" style='height: 311px')
               .tarjeta.bgr_1.p-4.positio-relative
                 p.mb-0.text-center.text-bold <em>On cloud nine</em>
@@ -56,7 +56,7 @@
                   @audio-hover="mostrarIndicadorAudio = false"
                 )
                   .indicador--click(v-if="mostrarIndicadorAudio")
-          .col-xl-2
+          .col-8.col-md-4.col-lg-2.mb-3.mb-lg-0
             .tarjeta.p-2.d-flex.align-items-end.justify-content-center(:style="{'background-image': `url(${require('@/assets/curso/tema1/6.png')})`}" style='height: 311px')
               .tarjeta.bgr_1.p-4.positio-relative
                 p.mb-0.text-center.text-bold <em>Tickled pink</em>
@@ -66,7 +66,7 @@
                 )
                   .indicador--click(v-if="mostrarIndicadorAudio")
         .row.justify-content-center
-          .col-xl-2
+          .col-8.col-md-4.col-lg-2.mb-3.mb-lg-0
             .tarjeta.p-2.d-flex.align-items-end.justify-content-center(:style="{'background-image': `url(${require('@/assets/curso/tema1/7.png')})`}" style='height: 311px')
               .tarjeta.bgr_1.p-4.positio-relative
                 p.mb-0.text-center.text-bold <em>To be yellow</em>
@@ -75,7 +75,7 @@
                   @audio-hover="mostrarIndicadorAudio = false"
                 )
                   .indicador--click(v-if="mostrarIndicadorAudio")
-          .col-xl-2
+          .col-8.col-md-4.col-lg-2.mb-3.mb-lg-0
             .tarjeta.p-2.d-flex.align-items-end.justify-content-center(:style="{'background-image': `url(${require('@/assets/curso/tema1/8.png')})`}" style='height: 311px')
               .tarjeta.bgr_1.px-3.py-4.positio-relative
                 p.mb-0.text-center.text-bold <em>Chilled out</em>
@@ -84,7 +84,7 @@
                   @audio-hover="mostrarIndicadorAudio = false"
                 )
                   .indicador--click(v-if="mostrarIndicadorAudio")
-          .col-xl-2
+          .col-8.col-md-4.col-lg-2.mb-3.mb-lg-0
             .tarjeta.p-2.d-flex.align-items-end.justify-content-center(:style="{'background-image': `url(${require('@/assets/curso/tema1/9.png')})`}" style='height: 311px')
               .tarjeta.bgr_1.p-4.positio-relative
                 p.mb-0.text-center.text-bold <em>Spaced out</em>
@@ -93,7 +93,7 @@
                   @audio-hover="mostrarIndicadorAudio = false"
                 )
                   .indicador--click(v-if="mostrarIndicadorAudio")
-          .col-xl-2
+          .col-8.col-md-4.col-lg-2.mb-3.mb-lg-0
             .tarjeta.p-2.d-flex.align-items-end.justify-content-center(:style="{'background-image': `url(${require('@/assets/curso/tema1/10.png')})`}" style='height: 311px')
               .tarjeta.bgr_1.p-4.positio-relative
                 p.mb-0.text-center.text-bold <em>Shaken up</em>
@@ -102,7 +102,7 @@
                   @audio-hover="mostrarIndicadorAudio = false"
                 )
                   .indicador--click(v-if="mostrarIndicadorAudio")
-          .col-xl-2
+          .col-8.col-md-4.col-lg-2.mb-3.mb-lg-0
             .tarjeta.p-2.d-flex.align-items-end.justify-content-center(:style="{'background-image': `url(${require('@/assets/curso/tema1/11.png')})`}" style='height: 311px')
               .tarjeta.bgr_1.p-4.positio-relative
                 p.mb-0.text-center.text-bold <em>To be on pins and needles</em>
@@ -116,7 +116,7 @@
     p.mb-5 Cuando se habla de sentimientos y emociones en inglés, es natural utilizar algunas expresiones que pueden sonar extrañas debido al vocabulario utilizado para expresarlas. Algunas de ellas se expresan con colores, como puede ver en el siguiente ejemplo.
 
     .bg_grad-04
-      .row.justify-content-center.mgb
+      .row.justify-content-center.mgb(data-aos="zoom-out")
         .col-xl-10
           figure.d-flex.justify-content-center
             img.w-auto(src="@/assets/curso/tema1/12.svg", alt="alt")
@@ -134,13 +134,13 @@
             span.text-bold <em>Danny: </em> 
             span.colr <em>I was green with envy when my brother showed me his new car, that’s terrible of me.</em>
             .row.mt-3.justify-content-between
-              .col-12.col-lg-9
+              .col-12.col-lg-9.mb-3.mb-lg-0
                 TarjetaAudio.color-secundario(
                   :audio="require('@/assets/componentes/audios/1-11.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
                   .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-              .col-12.col-lg-auto
+              .col-12.col-lg-auto.d-flex.justify-content-center
                 a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
                   span Ver traducción 
                   i.fas.fa-language
