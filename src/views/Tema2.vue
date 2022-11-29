@@ -961,7 +961,7 @@ export default {
           textoIng:
             '<em>Yes! It is impressive</em> *** <em>many people move from a place to another and you don’t even notice it.</em>',
           textoEsp:
-            '¡Si! Es impresionante cómo muchas personas se mudan de un lugar a otro y uno ni siquiera se da cuenta.',
+            '¡Sí! Es impresionante cómo muchas personas se mudan de un lugar a otro y uno ni siquiera se da cuenta.',
           audio: require('@/assets/componentes/audios/2-11.mp3'),
           palabra: '<em>how</em>',
         },

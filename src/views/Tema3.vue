@@ -118,7 +118,7 @@
             p.ms-3 Mi mamá no solía sentirse triste cuando yo montaba mi motocicleta..
           .col-lg-6
             TarjetaAudio.color-secundario.mb-3(
-              texto="<em>Natalia didn’t use to be yellow when she was in elementary school.</em>"
+              texto="<em>Natalia didn’t use to be yellow when she was at elementary school.</em>"
               :audio="require('@/assets/componentes/audios/3-7.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
@@ -505,10 +505,9 @@ export default {
         {
           personaje: 'Paula:',
           textoIng:
-            '<em>I had a boyfriend at college so I</em> *** <em>(spend) the whole weekend with him</em>',
+            '<em>I had a boyfriend at college so I would spend the whole weekend with him</em>',
           textoEsp: '',
           audio: require('@/assets/componentes/audios/3-27.mp3'),
-          palabra: '<em>would spend</em>',
         },
       ],
     },
